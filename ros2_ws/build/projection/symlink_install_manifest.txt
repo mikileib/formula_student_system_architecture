@@ -1,0 +1,16 @@
+/root/ros2_ws/install/projection/lib/projection/cone_detection_camera
+/root/ros2_ws/install/projection/share/ament_index/resource_index/package_run_dependencies/projection
+/root/ros2_ws/install/projection/share/ament_index/resource_index/parent_prefix_path/projection
+/root/ros2_ws/install/projection/share/projection/environment/ament_prefix_path.sh
+/root/ros2_ws/install/projection/share/projection/environment/ament_prefix_path.dsv
+/root/ros2_ws/install/projection/share/projection/environment/path.sh
+/root/ros2_ws/install/projection/share/projection/environment/path.dsv
+/root/ros2_ws/install/projection/share/projection/local_setup.bash
+/root/ros2_ws/install/projection/share/projection/local_setup.sh
+/root/ros2_ws/install/projection/share/projection/local_setup.zsh
+/root/ros2_ws/install/projection/share/projection/local_setup.dsv
+/root/ros2_ws/install/projection/share/projection/package.dsv
+/root/ros2_ws/install/projection/share/ament_index/resource_index/packages/projection
+/root/ros2_ws/install/projection/share/projection/cmake/projectionConfig.cmake
+/root/ros2_ws/install/projection/share/projection/cmake/projectionConfig-version.cmake
+/root/ros2_ws/install/projection/share/projection/package.xml

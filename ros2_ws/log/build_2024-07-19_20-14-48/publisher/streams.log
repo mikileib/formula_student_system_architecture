@@ -1,0 +1,36 @@
+[0.056s] Invoking command in '/root/ros2_ws/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/publisher -- -j8 -l8
+[0.177s] [35m[1mConsolidate compiler generated dependencies of target kitti_images[0m
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target openvslam_video[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target seeds_images[0m
+[0.190s] [35m[1mConsolidate compiler generated dependencies of target euroc_images[0m
+[0.236s] [ 27%] Built target kitti_images
+[0.251s] [ 45%] Built target openvslam_video
+[0.262s] [ 72%] Built target euroc_images
+[0.268s] [100%] Built target seeds_images
+[0.298s] Invoked command in '/root/ros2_ws/build/publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/publisher -- -j8 -l8
+[0.459s] Invoking command in '/root/ros2_ws/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/publisher
+[0.483s] -- Install configuration: ""
+[0.483s] -- Installing: /root/ros2_ws/install/publisher/lib/publisher/kitti_images
+[0.485s] -- Set runtime path of "/root/ros2_ws/install/publisher/lib/publisher/kitti_images" to ""
+[0.486s] -- Installing: /root/ros2_ws/install/publisher/lib/publisher/openvslam_video
+[0.486s] -- Set runtime path of "/root/ros2_ws/install/publisher/lib/publisher/openvslam_video" to ""
+[0.487s] -- Installing: /root/ros2_ws/install/publisher/lib/publisher/seeds_images
+[0.487s] -- Set runtime path of "/root/ros2_ws/install/publisher/lib/publisher/seeds_images" to ""
+[0.489s] -- Installing: /root/ros2_ws/install/publisher/lib/publisher/euroc_images
+[0.491s] -- Set runtime path of "/root/ros2_ws/install/publisher/lib/publisher/euroc_images" to ""
+[0.492s] -- Installing: /root/ros2_ws/install/publisher/share/ament_index/resource_index/package_run_dependencies/publisher
+[0.493s] -- Installing: /root/ros2_ws/install/publisher/share/ament_index/resource_index/parent_prefix_path/publisher
+[0.493s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/environment/ament_prefix_path.sh
+[0.494s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/environment/ament_prefix_path.dsv
+[0.494s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/environment/path.sh
+[0.495s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/environment/path.dsv
+[0.496s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/local_setup.bash
+[0.497s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/local_setup.sh
+[0.498s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/local_setup.zsh
+[0.499s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/local_setup.dsv
+[0.500s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/package.dsv
+[0.501s] -- Installing: /root/ros2_ws/install/publisher/share/ament_index/resource_index/packages/publisher
+[0.502s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/cmake/publisherConfig.cmake
+[0.502s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/cmake/publisherConfig-version.cmake
+[0.503s] -- Installing: /root/ros2_ws/install/publisher/share/publisher/package.xml
+[0.967s] Invoked command in '/root/ros2_ws/build/publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/publisher

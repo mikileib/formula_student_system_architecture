@@ -1,0 +1,58 @@
+[0.576s] Invoking command in '/root/ros2_ws/build/lidar_cluster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_cluster -- -j8 -l8
+[0.703s] [35m[1mConsolidate compiler generated dependencies of target dbscan_spatial[0m
+[0.704s] [35m[1mConsolidate compiler generated dependencies of target dbscan_grid[0m
+[0.708s] [35m[1mConsolidate compiler generated dependencies of target euclidean_spatial[0m
+[0.708s] [35m[1mConsolidate compiler generated dependencies of target dblane_f1s[0m
+[0.713s] [35m[1mConsolidate compiler generated dependencies of target euclidean_grid[0m
+[0.715s] [35m[1mConsolidate compiler generated dependencies of target dblane_spatial[0m
+[0.747s] [ 13%] Built target dbscan_grid
+[0.754s] [ 20%] [32mBuilding CXX object CMakeFiles/dbscan_spatial.dir/src/dbscan_spatial.cpp.o[0m
+[0.773s] [ 33%] Built target dblane_spatial
+[0.785s] [ 46%] Built target dblane_f1s
+[0.812s] [ 60%] Built target euclidean_spatial
+[0.834s] [ 86%] Built target euclidean_grid
+[37.723s] [ 93%] [32m[1mLinking CXX executable dbscan_spatial[0m
+[38.838s] [100%] Built target dbscan_spatial
+[38.856s] Invoked command in '/root/ros2_ws/build/lidar_cluster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_cluster -- -j8 -l8
+[38.974s] Invoking command in '/root/ros2_ws/build/lidar_cluster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_cluster
+[38.987s] -- Install configuration: ""
+[38.987s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch
+[38.988s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/rviz01.launch.py
+[38.989s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dbscan_spatial.launch.py
+[38.990s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/euclidean_spatial.launch.py
+[38.990s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dblane_f1s.launch.py
+[38.991s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dblane_spatial.launch.py
+[38.992s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/rviz02.launch.py
+[38.993s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/euclidean_grid.launch.py
+[38.994s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config
+[38.994s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/rviz01.rviz
+[38.996s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/.gitkeep
+[38.996s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/rviz02.rviz
+[38.997s] -- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_spatial
+[38.999s] -- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_spatial" to ""
+[38.999s] -- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_grid
+[39.000s] -- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_grid" to ""
+[39.000s] -- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_spatial
+[39.001s] -- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_spatial" to ""
+[39.001s] -- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_spatial
+[39.003s] -- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_spatial" to ""
+[39.003s] -- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_f1s
+[39.005s] -- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_f1s" to ""
+[39.005s] -- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_grid
+[39.007s] -- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_grid" to ""
+[39.008s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/package_run_dependencies/lidar_cluster
+[39.009s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/parent_prefix_path/lidar_cluster
+[39.010s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/ament_prefix_path.sh
+[39.010s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/ament_prefix_path.dsv
+[39.011s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/path.sh
+[39.011s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/path.dsv
+[39.012s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.bash
+[39.013s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.sh
+[39.014s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.zsh
+[39.015s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.dsv
+[39.015s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/package.dsv
+[39.016s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/packages/lidar_cluster
+[39.016s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig.cmake
+[39.017s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig-version.cmake
+[39.018s] -- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/package.xml
+[39.022s] Invoked command in '/root/ros2_ws/build/lidar_cluster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_cluster

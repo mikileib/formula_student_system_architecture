@@ -1,0 +1,20 @@
+[1.222s] Invoking command in '/root/ros2_ws/src/YOLOv5-ROS/yolov5_ros': CMAKE_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs:/root/ros2_ws/install/racetrack_simulator:/root/ros2_ws/install/projection:/root/ros2_ws/install/prcp_object_fusion:/root/ros2_ws/install/patchworkpp:/root/ros2_ws/install/lidar_pre_filter:/root/ros2_ws/install/lidar_cluster:/root/ros2_ws/install/formula_student_bringup:/root/ros2_ws/install/csv_to_pointcloud2_converter:/root/ros2_ws/install/cone_detection_lidar LD_LIBRARY_PATH=/root/ros2_ws/install/bboxes_ex_msgs/lib:/root/ros2_ws/install/patchworkpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_ws/build/yolov5_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov5_ros build --build-base /root/ros2_ws/build/yolov5_ros/build install --record /root/ros2_ws/build/yolov5_ros/install.log --single-version-externally-managed install_data
+[1.607s] running egg_info
+[1.608s] writing ../../../build/yolov5_ros/yolov5_ros.egg-info/PKG-INFO
+[1.609s] writing dependency_links to ../../../build/yolov5_ros/yolov5_ros.egg-info/dependency_links.txt
+[1.609s] writing entry points to ../../../build/yolov5_ros/yolov5_ros.egg-info/entry_points.txt
+[1.610s] writing requirements to ../../../build/yolov5_ros/yolov5_ros.egg-info/requires.txt
+[1.610s] writing top-level names to ../../../build/yolov5_ros/yolov5_ros.egg-info/top_level.txt
+[1.614s] reading manifest file '../../../build/yolov5_ros/yolov5_ros.egg-info/SOURCES.txt'
+[1.615s] writing manifest file '../../../build/yolov5_ros/yolov5_ros.egg-info/SOURCES.txt'
+[1.615s] running build
+[1.615s] running build_py
+[1.618s] running install
+[1.619s] running install_lib
+[1.623s] running install_data
+[1.623s] running install_egg_info
+[1.626s] removing '/root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros-0.2.0-py3.10.egg-info' (and everything under it)
+[1.626s] Copying ../../../build/yolov5_ros/yolov5_ros.egg-info to /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros-0.2.0-py3.10.egg-info
+[1.627s] running install_scripts
+[1.641s] Installing yolov5_ros script to /root/ros2_ws/install/yolov5_ros/lib/yolov5_ros
+[1.643s] writing list of installed files to '/root/ros2_ws/build/yolov5_ros/install.log'

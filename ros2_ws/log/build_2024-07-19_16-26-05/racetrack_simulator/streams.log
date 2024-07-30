@@ -1,0 +1,101 @@
+[0.051s] Invoking command in '/root/ros2_ws/build/racetrack_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/racetrack_simulator -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/racetrack_simulator
+[3.156s] -- The C compiler identification is GNU 11.4.0
+[3.156s] -- The CXX compiler identification is GNU 11.4.0
+[3.156s] -- Detecting C compiler ABI info
+[3.156s] -- Detecting C compiler ABI info - done
+[3.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.156s] -- Detecting C compile features
+[3.156s] -- Detecting C compile features - done
+[3.157s] -- Detecting CXX compiler ABI info
+[3.157s] -- Detecting CXX compiler ABI info - done
+[3.157s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.157s] -- Detecting CXX compile features
+[3.157s] -- Detecting CXX compile features - done
+[3.157s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.157s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.158s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.158s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.158s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.158s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.177s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.933s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.120s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.095s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.297s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.843s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.940s] -- Looking for pthread.h
+[6.389s] -- Looking for pthread.h - found
+[6.389s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.899s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.907s] -- Found Threads: TRUE  
+[8.220s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.153s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[9.948s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[10.953s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[10.960s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.961s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.328s] -- Checking for module 'eigen3'
+[12.376s] --   Found eigen3, version 3.4.0
+[12.596s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[12.604s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.859s] -- Checking for module 'flann'
+[13.101s] --   Found flann, version 1.9.1
+[13.392s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[13.400s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[20.547s] -- Checking for module 'libusb-1.0'
+[20.762s] --   Found libusb-1.0, version 1.0.25
+[21.350s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[21.358s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[21.677s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[22.464s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[22.514s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[22.558s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[23.688s] -- Found Qhull version 8.0.2
+[25.141s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[26.304s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[26.310s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[26.330s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[26.334s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[26.334s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[26.340s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[26.350s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[26.351s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[26.356s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[26.359s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[26.362s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[26.371s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[26.382s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[26.384s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[26.396s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[26.398s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[26.407s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[26.409s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[26.422s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[26.431s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[26.436s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[26.440s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[26.443s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[26.448s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[26.457s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[27.939s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[28.744s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[28.768s] -- Configured cppcheck include dirs: /root/ros2_ws/src/formula_student_packages/racetrack_simulator/include
+[28.768s] -- Configured cppcheck exclude dirs and/or files: 
+[28.780s] -- Added test 'flake8' to check Python code syntax and style conventions
+[28.788s] -- Added test 'lint_cmake' to check CMake code style
+[28.803s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[28.816s] -- Added test 'uncrustify' to check C / C++ code style
+[28.818s] -- Configured uncrustify additional arguments: 
+[28.844s] -- Added test 'xmllint' to check XML markup files
+[28.862s] -- Configuring done
+[29.795s] -- Generating done
+[29.806s] -- Build files have been written to: /root/ros2_ws/build/racetrack_simulator
+[29.954s] Invoked command in '/root/ros2_ws/build/racetrack_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/racetrack_simulator -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/racetrack_simulator
+[30.009s] Invoking command in '/root/ros2_ws/build/racetrack_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/racetrack_simulator -- -j8 -l8
+[92.542s] [ 25%] [32mBuilding CXX object CMakeFiles/lidar_cone_sim.dir/src/lidar_cone_sim.cpp.o[0m
+[164.898s] [ 50%] [32m[1mLinking CXX executable lidar_cone_sim[0m
+[168.756s] [ 50%] Built target lidar_cone_sim
+[168.857s] [ 75%] [32mBuilding CXX object CMakeFiles/accuracy_meter.dir/src/accuracy_meter.cpp.o[0m
+[206.992s] [100%] [32m[1mLinking CXX executable accuracy_meter[0m
+[207.857s] [100%] Built target accuracy_meter

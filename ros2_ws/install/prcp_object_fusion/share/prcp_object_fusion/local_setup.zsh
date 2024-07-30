@@ -1,0 +1,1 @@
+/root/ros2_ws/build/prcp_object_fusion/ament_cmake_environment_hooks/local_setup.zsh

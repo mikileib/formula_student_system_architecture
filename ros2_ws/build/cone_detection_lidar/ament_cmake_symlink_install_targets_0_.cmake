@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_ws/build/cone_detection_lidar/detection_simple" "/root/ros2_ws/build/cone_detection_lidar/grid_trajectory" "TARGETS" "detection_simple" "grid_trajectory" "DESTINATION" "lib/cone_detection_lidar")

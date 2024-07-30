@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target demo[0m
+[35m[1mConsolidate compiler generated dependencies of target patchworkpp[0m
+[ 50%] Built target demo
+[100%] Built target patchworkpp
+-- Install configuration: "Release"
+-- Installing: /root/ros2_ws/install/patchworkpp/lib/libpatchworkpp.so
+-- Set runtime path of "/root/ros2_ws/install/patchworkpp/lib/libpatchworkpp.so" to ""
+-- Installing: /root/ros2_ws/install/patchworkpp/lib/patchworkpp/demo
+-- Set runtime path of "/root/ros2_ws/install/patchworkpp/lib/patchworkpp/demo" to ""
+-- Installing: /root/ros2_ws/install/patchworkpp/include/patchworkpp
+-- Installing: /root/ros2_ws/install/patchworkpp/include/patchworkpp/patchworkpp.hpp
+-- Installing: /root/ros2_ws/install/patchworkpp/include/patchworkpp/utils.hpp
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch/demo.launch.py
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch/rviz1.launch.py
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/config
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/config/params_ros2.yaml
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/patchworkpp_viz.rviz
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/demo.rviz
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/rviz1.rviz
+-- Installing: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/package_run_dependencies/patchworkpp
+-- Installing: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/parent_prefix_path/patchworkpp
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/path.sh
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/path.dsv
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.bash
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.sh
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.zsh
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.dsv
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/package.dsv
+-- Installing: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/packages/patchworkpp
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig.cmake
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig-version.cmake
+-- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/package.xml

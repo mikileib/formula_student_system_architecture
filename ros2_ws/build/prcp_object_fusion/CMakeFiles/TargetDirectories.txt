@@ -1,0 +1,10 @@
+/root/ros2_ws/build/prcp_object_fusion/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/prcp_object_fusion/CMakeFiles/prcp_object_fusion_uninstall.dir
+/root/ros2_ws/build/prcp_object_fusion/CMakeFiles/prcp_object_fusion.dir
+/root/ros2_ws/build/prcp_object_fusion/CMakeFiles/test.dir
+/root/ros2_ws/build/prcp_object_fusion/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/prcp_object_fusion/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/prcp_object_fusion/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/prcp_object_fusion/CMakeFiles/install.dir
+/root/ros2_ws/build/prcp_object_fusion/CMakeFiles/install/local.dir
+/root/ros2_ws/build/prcp_object_fusion/CMakeFiles/install/strip.dir

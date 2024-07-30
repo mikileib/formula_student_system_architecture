@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/build/csv_to_pointcloud2_converter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/csv_to_pointcloud2_converter -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/csv_to_pointcloud2_converter
+Invoked command in '/root/ros2_ws/build/csv_to_pointcloud2_converter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/csv_to_pointcloud2_converter -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/csv_to_pointcloud2_converter
+Invoking command in '/root/ros2_ws/build/csv_to_pointcloud2_converter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/csv_to_pointcloud2_converter -- -j8 -l8
+Invoked command in '/root/ros2_ws/build/csv_to_pointcloud2_converter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/csv_to_pointcloud2_converter -- -j8 -l8
+Invoking command in '/root/ros2_ws/build/csv_to_pointcloud2_converter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/csv_to_pointcloud2_converter
+Invoked command in '/root/ros2_ws/build/csv_to_pointcloud2_converter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/csv_to_pointcloud2_converter

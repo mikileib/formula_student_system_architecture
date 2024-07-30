@@ -1,0 +1,27 @@
+[1.191s] Invoking command in '/root/ros2_ws/build/yolov5_ros': AMENT_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/bboxes_ex_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/yolov5_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages:/root/ros2_ws/install/bboxes_ex_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/yolov5_ros/build --no-deps symlink_data
+[1.738s] running develop
+[1.739s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.739s]   warnings.warn(
+[2.121s] running egg_info
+[2.122s] creating yolov5_ros.egg-info
+[2.122s] writing yolov5_ros.egg-info/PKG-INFO
+[2.123s] writing dependency_links to yolov5_ros.egg-info/dependency_links.txt
+[2.124s] writing entry points to yolov5_ros.egg-info/entry_points.txt
+[2.124s] writing requirements to yolov5_ros.egg-info/requires.txt
+[2.125s] writing top-level names to yolov5_ros.egg-info/top_level.txt
+[2.125s] writing manifest file 'yolov5_ros.egg-info/SOURCES.txt'
+[2.131s] reading manifest file 'yolov5_ros.egg-info/SOURCES.txt'
+[2.133s] writing manifest file 'yolov5_ros.egg-info/SOURCES.txt'
+[2.136s] running build_ext
+[2.136s] Creating /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5-ros.egg-link (link to .)
+[2.138s] Installing yolov5_ros script to /root/ros2_ws/install/yolov5_ros/lib/yolov5_ros
+[2.138s] 
+[2.139s] Installed /root/ros2_ws/build/yolov5_ros
+[2.139s] running symlink_data
+[2.140s] creating /root/ros2_ws/install/yolov5_ros/share/ament_index
+[2.140s] creating /root/ros2_ws/install/yolov5_ros/share/ament_index/resource_index
+[2.141s] creating /root/ros2_ws/install/yolov5_ros/share/ament_index/resource_index/packages
+[2.141s] symbolically linking /root/ros2_ws/build/yolov5_ros/resource/yolov5_ros -> /root/ros2_ws/install/yolov5_ros/share/ament_index/resource_index/packages
+[2.142s] symbolically linking /root/ros2_ws/build/yolov5_ros/package.xml -> /root/ros2_ws/install/yolov5_ros/share/yolov5_ros
+[2.142s] symbolically linking /root/ros2_ws/build/yolov5_ros/launch/yolov5s_simple.launch.py -> /root/ros2_ws/install/yolov5_ros/share/yolov5_ros
+[2.202s] Invoked command in '/root/ros2_ws/build/yolov5_ros' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/bboxes_ex_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/yolov5_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages:/root/ros2_ws/install/bboxes_ex_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/yolov5_ros/build --no-deps symlink_data

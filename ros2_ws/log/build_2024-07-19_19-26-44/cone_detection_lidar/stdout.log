@@ -1,0 +1,25 @@
+[ 50%] Built target grid_trajectory
+[100%] Built target detection_simple
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/detection_simple.launch.py
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/grid_detection.launch.py
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/rviz01.launch.py
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/config/rviz01.rviz
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/detection_simple
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/grid_trajectory
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/package_run_dependencies/cone_detection_lidar
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/parent_prefix_path/cone_detection_lidar
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/path.sh
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/path.dsv
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.bash
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.sh
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.zsh
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.dsv
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/package.dsv
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/packages/cone_detection_lidar
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/cmake/cone_detection_lidarConfig.cmake
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/cmake/cone_detection_lidarConfig-version.cmake
+-- Up-to-date symlink: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/package.xml

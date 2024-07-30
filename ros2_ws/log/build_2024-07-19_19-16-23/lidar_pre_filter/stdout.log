@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target filter_vehicle[0m
+[ 50%] [32m[1mLinking CXX executable filter_vehicle[0m
+[100%] Built target filter_vehicle
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch/filter_vehicle01.launch.py
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch/rviz01.launch.py
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/config/rviz01.rviz
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/lib/lidar_pre_filter/filter_vehicle
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/package_run_dependencies/lidar_pre_filter
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/parent_prefix_path/lidar_pre_filter
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/path.sh
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/path.dsv
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.bash
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.sh
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.zsh
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.dsv
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.dsv
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/packages/lidar_pre_filter
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/cmake/lidar_pre_filterConfig.cmake
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/cmake/lidar_pre_filterConfig-version.cmake
+-- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.xml

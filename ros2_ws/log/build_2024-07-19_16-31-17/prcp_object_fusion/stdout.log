@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target prcp_object_fusion[0m
+[100%] Built target prcp_object_fusion
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/launch
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/launch/run_all.launch.py
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/lib/prcp_object_fusion/prcp_object_fusion
+-- Set runtime path of "/root/ros2_ws/install/prcp_object_fusion/lib/prcp_object_fusion/prcp_object_fusion" to ""
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/package_run_dependencies/prcp_object_fusion
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/parent_prefix_path/prcp_object_fusion
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/path.sh
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/path.dsv
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.bash
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.sh
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.zsh
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.dsv
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/package.dsv
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/packages/prcp_object_fusion
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/cmake/prcp_object_fusionConfig.cmake
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/cmake/prcp_object_fusionConfig-version.cmake
+-- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/package.xml

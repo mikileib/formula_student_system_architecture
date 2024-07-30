@@ -1,0 +1,24 @@
+[0.447s] Invoking command in '/root/ros2_ws/build/prcp_object_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/prcp_object_fusion -- -j8 -l8
+[0.588s] [100%] Built target prcp_object_fusion
+[0.679s] Invoked command in '/root/ros2_ws/build/prcp_object_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/prcp_object_fusion -- -j8 -l8
+[0.780s] Invoking command in '/root/ros2_ws/build/prcp_object_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/prcp_object_fusion
+[0.796s] -- Install configuration: ""
+[0.797s] -- Execute custom install script
+[0.798s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/launch/run_all.launch.py
+[0.800s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/lib/prcp_object_fusion/prcp_object_fusion
+[0.802s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/package_run_dependencies/prcp_object_fusion
+[0.803s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/parent_prefix_path/prcp_object_fusion
+[0.805s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/ament_prefix_path.sh
+[0.805s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/ament_prefix_path.dsv
+[0.806s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/path.sh
+[0.807s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/path.dsv
+[0.810s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.bash
+[0.813s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.sh
+[0.813s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.zsh
+[0.813s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.dsv
+[0.814s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/package.dsv
+[0.830s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/packages/prcp_object_fusion
+[0.831s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/cmake/prcp_object_fusionConfig.cmake
+[0.831s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/cmake/prcp_object_fusionConfig-version.cmake
+[0.832s] -- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/package.xml
+[0.844s] Invoked command in '/root/ros2_ws/build/prcp_object_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/prcp_object_fusion

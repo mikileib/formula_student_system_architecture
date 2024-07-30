@@ -1,0 +1,587 @@
+[0.277s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-ignore', 'planner']
+[0.278s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=['planner'], packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f8f8844e920>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8f88553070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8f88553070>>, mixin_verb=('build',))
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.532s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.532s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.533s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_ws'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_to_pointcloud2_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_to_pointcloud2_converter) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_to_pointcloud2_converter) by extension 'ignore_ament_install'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_to_pointcloud2_converter) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_to_pointcloud2_converter) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_to_pointcloud2_converter) by extensions ['colcon_meta']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_to_pointcloud2_converter) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_to_pointcloud2_converter) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_to_pointcloud2_converter) by extension 'ros'
+[0.569s] DEBUG:colcon.colcon_core.package_identification:Package 'src/csv_to_pointcloud2_converter' with type 'ros.ament_cmake' and name 'csv_to_pointcloud2_converter'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extension 'ros'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extensions ['cmake', 'python']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extension 'cmake'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extension 'python'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extensions ['python_setup_py']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages) by extension 'python_setup_py'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extension 'ros'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extensions ['cmake', 'python']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extension 'cmake'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extension 'python'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extensions ['python_setup_py']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera) by extension 'python_setup_py'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/detection) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/detection) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/detection) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/detection) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/detection) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/detection) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/detection) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/detection) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/detection) by extension 'ros'
+[0.573s] DEBUG:colcon.colcon_core.package_identification:Package 'src/formula_student_packages/cone_detection_camera/detection' with type 'ros.ament_python' and name 'detection'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/projection) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/projection) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/projection) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/projection) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/projection) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/projection) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/projection) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/projection) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_camera/projection) by extension 'ros'
+[0.575s] DEBUG:colcon.colcon_core.package_identification:Package 'src/formula_student_packages/cone_detection_camera/projection' with type 'ros.ament_cmake' and name 'projection'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_lidar) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_lidar) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_lidar) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_lidar) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_lidar) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_lidar) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_lidar) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/cone_detection_lidar) by extension 'ros'
+[0.577s] DEBUG:colcon.colcon_core.package_identification:Package 'src/formula_student_packages/cone_detection_lidar' with type 'ros.ament_cmake' and name 'cone_detection_lidar'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/formula_student_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/formula_student_bringup) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/formula_student_bringup) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/formula_student_bringup) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/formula_student_bringup) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/formula_student_bringup) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/formula_student_bringup) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/formula_student_bringup) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/formula_student_bringup) by extension 'ros'
+[0.578s] DEBUG:colcon.colcon_core.package_identification:Package 'src/formula_student_packages/formula_student_bringup' with type 'ros.ament_cmake' and name 'formula_student_bringup'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extension 'ros'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extensions ['cmake', 'python']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extension 'python'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/img) by extension 'python_setup_py'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/lidar_pre_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/lidar_pre_filter) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/lidar_pre_filter) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/lidar_pre_filter) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/lidar_pre_filter) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/lidar_pre_filter) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/lidar_pre_filter) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/lidar_pre_filter) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/lidar_pre_filter) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/formula_student_packages/lidar_pre_filter' with type 'ros.ament_cmake' and name 'lidar_pre_filter'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/object_fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/object_fusion) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/object_fusion) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/object_fusion) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/object_fusion) by extension 'colcon_pkg'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/object_fusion) by extensions ['colcon_meta']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/object_fusion) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/object_fusion) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/object_fusion) by extension 'ros'
+[0.585s] DEBUG:colcon.colcon_core.package_identification:Package 'src/formula_student_packages/object_fusion' with type 'ros.ament_cmake' and name 'prcp_object_fusion'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/planner) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/planner) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/planner) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/planner) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/planner) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/planner) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/planner) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/planner) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/planner) by extension 'ros'
+[0.586s] DEBUG:colcon.colcon_core.package_identification:Package 'src/formula_student_packages/planner' with type 'ros.ament_cmake' and name 'planner'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/racetrack_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/racetrack_simulator) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/racetrack_simulator) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/racetrack_simulator) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/racetrack_simulator) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/racetrack_simulator) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/racetrack_simulator) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/racetrack_simulator) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/formula_student_packages/racetrack_simulator) by extension 'ros'
+[0.588s] DEBUG:colcon.colcon_core.package_identification:Package 'src/formula_student_packages/racetrack_simulator' with type 'ros.ament_cmake' and name 'racetrack_simulator'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cluster_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cluster_ros2) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cluster_ros2) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cluster_ros2) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cluster_ros2) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cluster_ros2) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cluster_ros2) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cluster_ros2) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cluster_ros2) by extension 'ros'
+[0.590s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_cluster_ros2' with type 'ros.ament_cmake' and name 'lidar_cluster'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/patchwork-plusplus-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/patchwork-plusplus-ros) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/patchwork-plusplus-ros) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/patchwork-plusplus-ros) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/patchwork-plusplus-ros) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/patchwork-plusplus-ros) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/patchwork-plusplus-ros) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/patchwork-plusplus-ros) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/patchwork-plusplus-ros) by extension 'ros'
+[0.593s] DEBUG:colcon.colcon_core.package_identification:Package 'src/patchwork-plusplus-ros' with type 'ros.ament_cmake' and name 'patchworkpp'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_publisher) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_publisher) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_publisher) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_publisher) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_publisher) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_publisher) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_publisher) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_publisher) by extension 'ros'
+[0.594s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_publisher' with type 'ros.ament_python' and name 'pointcloud_publisher'
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'cone_detection_lidar' build argument 'cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'cone_detection_lidar' build argument 'cmake_target' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'cone_detection_lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'cone_detection_lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'cone_detection_lidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'cone_detection_lidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'cone_detection_lidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'cone_detection_lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'cone_detection_lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.627s] DEBUG:colcon.colcon_core.verb:Building package 'cone_detection_lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/cone_detection_lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/cone_detection_lidar', 'merge_install': False, 'path': '/root/ros2_ws/src/formula_student_packages/cone_detection_lidar', 'symlink_install': False, 'test_result_base': None}
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'csv_to_pointcloud2_converter' build argument 'cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'csv_to_pointcloud2_converter' build argument 'cmake_target' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'csv_to_pointcloud2_converter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'csv_to_pointcloud2_converter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'csv_to_pointcloud2_converter' build argument 'cmake_clean_first' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'csv_to_pointcloud2_converter' build argument 'cmake_force_configure' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'csv_to_pointcloud2_converter' build argument 'ament_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'csv_to_pointcloud2_converter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'csv_to_pointcloud2_converter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.628s] DEBUG:colcon.colcon_core.verb:Building package 'csv_to_pointcloud2_converter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/csv_to_pointcloud2_converter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/csv_to_pointcloud2_converter', 'merge_install': False, 'path': '/root/ros2_ws/src/csv_to_pointcloud2_converter', 'symlink_install': False, 'test_result_base': None}
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'detection' build argument 'cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'detection' build argument 'cmake_target' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.628s] DEBUG:colcon.colcon_core.verb:Building package 'detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/detection', 'merge_install': False, 'path': '/root/ros2_ws/src/formula_student_packages/cone_detection_camera/detection', 'symlink_install': False, 'test_result_base': None}
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'formula_student_bringup' build argument 'cmake_args' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'formula_student_bringup' build argument 'cmake_target' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'formula_student_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'formula_student_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'formula_student_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'formula_student_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'formula_student_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'formula_student_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'formula_student_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.629s] DEBUG:colcon.colcon_core.verb:Building package 'formula_student_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/formula_student_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/formula_student_bringup', 'merge_install': False, 'path': '/root/ros2_ws/src/formula_student_packages/formula_student_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_cluster' build argument 'cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_cluster' build argument 'cmake_target' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_cluster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_cluster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_cluster' build argument 'cmake_clean_first' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_cluster' build argument 'cmake_force_configure' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_cluster' build argument 'ament_cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_cluster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_cluster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.630s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_cluster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/lidar_cluster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/lidar_cluster', 'merge_install': False, 'path': '/root/ros2_ws/src/lidar_cluster_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_pre_filter' build argument 'cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_pre_filter' build argument 'cmake_target' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_pre_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_pre_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_pre_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_pre_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_pre_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_pre_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'lidar_pre_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.630s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_pre_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/lidar_pre_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/lidar_pre_filter', 'merge_install': False, 'path': '/root/ros2_ws/src/formula_student_packages/lidar_pre_filter', 'symlink_install': False, 'test_result_base': None}
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'patchworkpp' build argument 'cmake_args' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'patchworkpp' build argument 'cmake_target' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'patchworkpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'patchworkpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'patchworkpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'patchworkpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'patchworkpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'patchworkpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'patchworkpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.631s] DEBUG:colcon.colcon_core.verb:Building package 'patchworkpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/patchworkpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/patchworkpp', 'merge_install': False, 'path': '/root/ros2_ws/src/patchwork-plusplus-ros', 'symlink_install': False, 'test_result_base': None}
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_publisher' build argument 'cmake_args' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_publisher' build argument 'cmake_target' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.632s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/pointcloud_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/pointcloud_publisher', 'merge_install': False, 'path': '/root/ros2_ws/src/pointcloud_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'prcp_object_fusion' build argument 'cmake_args' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'prcp_object_fusion' build argument 'cmake_target' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'prcp_object_fusion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'prcp_object_fusion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'prcp_object_fusion' build argument 'cmake_clean_first' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'prcp_object_fusion' build argument 'cmake_force_configure' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'prcp_object_fusion' build argument 'ament_cmake_args' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'prcp_object_fusion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'prcp_object_fusion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.632s] DEBUG:colcon.colcon_core.verb:Building package 'prcp_object_fusion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/prcp_object_fusion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/prcp_object_fusion', 'merge_install': False, 'path': '/root/ros2_ws/src/formula_student_packages/object_fusion', 'symlink_install': False, 'test_result_base': None}
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'projection' build argument 'cmake_args' from command line to 'None'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'projection' build argument 'cmake_target' from command line to 'None'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'projection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'projection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'projection' build argument 'cmake_clean_first' from command line to 'False'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'projection' build argument 'cmake_force_configure' from command line to 'False'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'projection' build argument 'ament_cmake_args' from command line to 'None'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'projection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'projection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.633s] DEBUG:colcon.colcon_core.verb:Building package 'projection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/projection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/projection', 'merge_install': False, 'path': '/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection', 'symlink_install': False, 'test_result_base': None}
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'racetrack_simulator' build argument 'cmake_args' from command line to 'None'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'racetrack_simulator' build argument 'cmake_target' from command line to 'None'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'racetrack_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'racetrack_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'racetrack_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'racetrack_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'racetrack_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'racetrack_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.634s] Level 5:colcon.colcon_core.verb:set package 'racetrack_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.634s] DEBUG:colcon.colcon_core.verb:Building package 'racetrack_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/racetrack_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/racetrack_simulator', 'merge_install': False, 'path': '/root/ros2_ws/src/formula_student_packages/racetrack_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.634s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.638s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/formula_student_packages/cone_detection_lidar' with build type 'ament_cmake'
+[0.638s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/formula_student_packages/cone_detection_lidar'
+[0.644s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.644s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.646s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/root/ros2_ws/src/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.646s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/racetrack_simulator' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.646s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/projection' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.646s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/prcp_object_fusion' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.646s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/eufs_tracks' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.647s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/eufs_sensors' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.647s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/eufs_models' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.647s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/detection' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.647s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/eufs_rqt' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.647s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/eufs_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.647s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/eufs_launcher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.647s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/src/install/eufs_rqt' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.648s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/src/install/eufs_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.648s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/src/install/pointcloud_publisher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.648s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/src/install/formula_student_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.648s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/src/install/eufs_tracks' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.648s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/src/install/eufs_sensors' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.649s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/src/install/eufs_racecar' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.649s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/src/install/detection' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.649s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/src/install/csv_to_pointcloud2_converter' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.649s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/eufs_racecar' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.649s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/pointcloud_publisher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.650s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/patchworkpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.650s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/lidar_pre_filter' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.650s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/lidar_cluster' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.650s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/formula_student_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.650s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/csv_to_pointcloud2_converter' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.651s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/cone_detection_lidar' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.651s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/racetrack_simulator' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.651s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/projection' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.651s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/prcp_object_fusion' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.651s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/eufs_sensors' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.652s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/eufs_models' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.652s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/eufs_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.652s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/src/install/eufs_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.652s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/src/install/formula_student_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.652s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/src/install/eufs_sensors' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.652s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/src/install/csv_to_pointcloud2_converter' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.653s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/patchworkpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.653s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/lidar_pre_filter' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.653s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/lidar_cluster' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.653s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/formula_student_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.653s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/csv_to_pointcloud2_converter' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.654s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_ws/install/cone_detection_lidar' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.660s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/csv_to_pointcloud2_converter' with build type 'ament_cmake'
+[0.660s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/csv_to_pointcloud2_converter'
+[0.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.670s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/formula_student_packages/cone_detection_camera/detection' with build type 'ament_python'
+[0.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('detection', 'ament_prefix_path')
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/detection/share/detection/hook/ament_prefix_path.ps1'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/detection/share/detection/hook/ament_prefix_path.dsv'
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/detection/share/detection/hook/ament_prefix_path.sh'
+[0.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.680s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/formula_student_packages/formula_student_bringup' with build type 'ament_cmake'
+[0.681s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/formula_student_packages/formula_student_bringup'
+[0.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.690s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/lidar_cluster_ros2' with build type 'ament_cmake'
+[0.690s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/lidar_cluster_ros2'
+[0.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.699s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/formula_student_packages/lidar_pre_filter' with build type 'ament_cmake'
+[0.699s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/formula_student_packages/lidar_pre_filter'
+[0.700s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.700s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.713s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/patchwork-plusplus-ros' with build type 'ament_cmake'
+[0.713s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/patchwork-plusplus-ros'
+[0.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.721s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/pointcloud_publisher' with build type 'ament_python'
+[0.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_publisher', 'ament_prefix_path')
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher/hook/ament_prefix_path.ps1'
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher/hook/ament_prefix_path.dsv'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher/hook/ament_prefix_path.sh'
+[0.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/cone_detection_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/cone_detection_lidar -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/cone_detection_lidar
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/csv_to_pointcloud2_converter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/csv_to_pointcloud2_converter -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/csv_to_pointcloud2_converter
+[1.246s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/formula_student_packages/cone_detection_camera/detection'
+[1.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/formula_student_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/formula_student_bringup -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/formula_student_bringup
+[1.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/lidar_cluster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/lidar_cluster_ros2 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/lidar_cluster
+[1.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/lidar_pre_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/lidar_pre_filter -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/lidar_pre_filter
+[1.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/patchwork-plusplus-ros -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/patchworkpp
+[2.067s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/pointcloud_publisher'
+[2.068s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/formula_student_packages/cone_detection_camera/detection': PYTHONPATH=/root/ros2_ws/build/detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/detection build --build-base /root/ros2_ws/build/detection/build install --record /root/ros2_ws/build/detection/install.log --single-version-externally-managed install_data
+[3.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/pointcloud_publisher': PYTHONPATH=/root/ros2_ws/build/pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pointcloud_publisher build --build-base /root/ros2_ws/build/pointcloud_publisher/build install --record /root/ros2_ws/build/pointcloud_publisher/install.log --single-version-externally-managed install_data
+[4.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/csv_to_pointcloud2_converter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/csv_to_pointcloud2_converter -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/csv_to_pointcloud2_converter
+[4.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/csv_to_pointcloud2_converter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/csv_to_pointcloud2_converter -- -j8 -l8
+[4.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/formula_student_packages/cone_detection_camera/detection' returned '0': PYTHONPATH=/root/ros2_ws/build/detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/detection build --build-base /root/ros2_ws/build/detection/build install --record /root/ros2_ws/build/detection/install.log --single-version-externally-managed install_data
+[4.836s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/detection' for CMake module files
+[4.837s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/detection' for CMake config files
+[4.839s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/detection/lib'
+[4.841s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/detection/bin'
+[4.841s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/detection/lib/pkgconfig/detection.pc'
+[4.841s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/detection/lib/python3.10/site-packages'
+[4.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('detection', 'pythonpath')
+[4.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/detection/share/detection/hook/pythonpath.ps1'
+[4.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/detection/share/detection/hook/pythonpath.dsv'
+[4.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/detection/share/detection/hook/pythonpath.sh'
+[4.846s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/detection/bin'
+[4.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detection)
+[4.847s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/detection/share/detection/package.ps1'
+[4.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/detection/share/detection/package.dsv'
+[4.852s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/detection/share/detection/package.sh'
+[4.854s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/detection/share/detection/package.bash'
+[4.857s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/detection/share/detection/package.zsh'
+[4.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/detection/share/colcon-core/packages/detection)
+[4.862s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/pointcloud_publisher' for CMake module files
+[4.863s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/pointcloud_publisher' for CMake config files
+[4.864s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/pointcloud_publisher/lib'
+[4.864s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/pointcloud_publisher/bin'
+[4.864s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/pointcloud_publisher/lib/pkgconfig/pointcloud_publisher.pc'
+[4.865s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages'
+[4.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_publisher', 'pythonpath')
+[4.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher/hook/pythonpath.ps1'
+[4.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/pointcloud_publisher' returned '0': PYTHONPATH=/root/ros2_ws/build/pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pointcloud_publisher build --build-base /root/ros2_ws/build/pointcloud_publisher/build install --record /root/ros2_ws/build/pointcloud_publisher/install.log --single-version-externally-managed install_data
+[4.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher/hook/pythonpath.dsv'
+[4.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher/hook/pythonpath.sh'
+[4.872s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/pointcloud_publisher/bin'
+[4.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_publisher)
+[4.873s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher/package.ps1'
+[4.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher/package.dsv'
+[4.877s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher/package.sh'
+[4.879s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher/package.bash'
+[4.881s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher/package.zsh'
+[4.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/pointcloud_publisher/share/colcon-core/packages/pointcloud_publisher)
+[4.883s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/formula_student_packages/object_fusion' with build type 'ament_cmake'
+[4.884s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/formula_student_packages/object_fusion'
+[4.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.884s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.901s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection' with build type 'ament_cmake'
+[4.902s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection'
+[4.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.903s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/prcp_object_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/object_fusion -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/prcp_object_fusion
+[4.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/projection
+[6.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/formula_student_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/formula_student_bringup -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/formula_student_bringup
+[6.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/formula_student_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/formula_student_bringup -- -j8 -l8
+[10.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/prcp_object_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/object_fusion -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/prcp_object_fusion
+[10.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/prcp_object_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/prcp_object_fusion -- -j8 -l8
+[10.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/formula_student_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/formula_student_bringup -- -j8 -l8
+[10.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/projection
+[10.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/projection -- -j8 -l8
+[10.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/formula_student_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/formula_student_bringup
+[13.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/cone_detection_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/cone_detection_lidar -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/cone_detection_lidar
+[13.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/cone_detection_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/cone_detection_lidar -- -j8 -l8
+[14.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(formula_student_bringup)
+[14.286s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup' for CMake module files
+[14.287s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup' for CMake config files
+[14.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('formula_student_bringup', 'cmake_prefix_path')
+[14.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/hook/cmake_prefix_path.ps1'
+[14.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/hook/cmake_prefix_path.dsv'
+[14.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/hook/cmake_prefix_path.sh'
+[14.294s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup/bin'
+[14.294s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup/lib/pkgconfig/formula_student_bringup.pc'
+[14.295s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup/lib/python3.10/site-packages'
+[14.295s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup/bin'
+[14.296s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.ps1'
+[14.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/formula_student_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/formula_student_bringup
+[14.298s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.dsv'
+[14.301s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.sh'
+[14.302s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.bash'
+[14.303s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.zsh'
+[14.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/formula_student_bringup/share/colcon-core/packages/formula_student_bringup)
+[14.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/lidar_pre_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/lidar_pre_filter -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/lidar_pre_filter
+[14.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/lidar_pre_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_pre_filter -- -j8 -l8
+[14.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(formula_student_bringup)
+[14.441s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup' for CMake module files
+[14.443s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup' for CMake config files
+[14.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('formula_student_bringup', 'cmake_prefix_path')
+[14.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/hook/cmake_prefix_path.ps1'
+[14.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/hook/cmake_prefix_path.dsv'
+[14.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/hook/cmake_prefix_path.sh'
+[14.454s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup/bin'
+[14.455s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup/lib/pkgconfig/formula_student_bringup.pc'
+[14.455s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup/lib/python3.10/site-packages'
+[14.461s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/formula_student_bringup/bin'
+[14.462s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.ps1'
+[14.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.dsv'
+[14.470s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.sh'
+[14.477s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.bash'
+[14.479s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.zsh'
+[14.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/formula_student_bringup/share/colcon-core/packages/formula_student_bringup)
+[14.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/formula_student_packages/racetrack_simulator' with build type 'ament_cmake'
+[14.491s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/formula_student_packages/racetrack_simulator'
+[14.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.492s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/racetrack_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/racetrack_simulator -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/racetrack_simulator
+[16.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/lidar_cluster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/lidar_cluster_ros2 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/lidar_cluster
+[16.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/lidar_cluster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_cluster -- -j8 -l8
+[17.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/patchwork-plusplus-ros -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/patchworkpp
+[17.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/patchworkpp -- -j8 -l8
+[32.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/csv_to_pointcloud2_converter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/csv_to_pointcloud2_converter -- -j8 -l8
+[32.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/csv_to_pointcloud2_converter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/csv_to_pointcloud2_converter
+[44.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/racetrack_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/racetrack_simulator -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/racetrack_simulator
+[44.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/racetrack_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/racetrack_simulator -- -j8 -l8
+[107.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/lidar_pre_filter' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_pre_filter -- -j8 -l8
+[107.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csv_to_pointcloud2_converter)
+[107.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/csv_to_pointcloud2_converter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/csv_to_pointcloud2_converter
+[108.013s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/csv_to_pointcloud2_converter' for CMake module files
+[108.067s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/csv_to_pointcloud2_converter' for CMake config files
+[108.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('csv_to_pointcloud2_converter', 'cmake_prefix_path')
+[108.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/hook/cmake_prefix_path.ps1'
+[108.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/hook/cmake_prefix_path.dsv'
+[108.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/hook/cmake_prefix_path.sh'
+[108.593s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/csv_to_pointcloud2_converter/lib'
+[108.598s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/csv_to_pointcloud2_converter/bin'
+[108.602s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/csv_to_pointcloud2_converter/lib/pkgconfig/csv_to_pointcloud2_converter.pc'
+[108.680s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/csv_to_pointcloud2_converter/lib/python3.10/site-packages'
+[108.685s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/csv_to_pointcloud2_converter/bin'
+[108.703s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/package.ps1'
+[108.729s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/package.dsv'
+[108.736s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/package.sh'
+[108.749s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/package.bash'
+[108.803s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/package.zsh'
+[108.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/csv_to_pointcloud2_converter/share/colcon-core/packages/csv_to_pointcloud2_converter)
+[109.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_pre_filter)
+[109.073s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/lidar_pre_filter' for CMake module files
+[109.073s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/lidar_pre_filter' for CMake config files
+[109.074s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/lidar_pre_filter/bin'
+[109.079s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/lidar_pre_filter/lib/pkgconfig/lidar_pre_filter.pc'
+[109.082s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/lidar_pre_filter/lib/python3.10/site-packages'
+[109.083s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/lidar_pre_filter/bin'
+[109.084s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.ps1'
+[109.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.dsv'
+[109.104s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.sh'
+[109.105s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.bash'
+[109.111s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.zsh'
+[109.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/lidar_pre_filter/share/colcon-core/packages/lidar_pre_filter)
+[227.204s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[227.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[227.226s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[227.231s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[227.473s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[227.473s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[227.474s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[227.475s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[227.476s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[227.477s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[227.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.ps1'
+[227.501s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/install/_local_setup_util_ps1.py'
+[227.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.ps1'
+[227.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.sh'
+[227.524s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/install/_local_setup_util_sh.py'
+[227.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.sh'
+[227.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.bash'
+[227.532s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.bash'
+[227.535s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.zsh'
+[227.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.zsh'

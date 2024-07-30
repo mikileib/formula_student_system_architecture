@@ -1,0 +1,23 @@
+[0.132s] Invoking command in '/root/ros2_ws/build/csv_to_pointcloud2_converter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/csv_to_pointcloud2_converter -- -j8 -l8
+[0.777s] [100%] Built target csv_to_pointcloud2_node
+[0.849s] Invoked command in '/root/ros2_ws/build/csv_to_pointcloud2_converter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/csv_to_pointcloud2_converter -- -j8 -l8
+[1.103s] Invoking command in '/root/ros2_ws/build/csv_to_pointcloud2_converter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/csv_to_pointcloud2_converter
+[1.147s] -- Install configuration: ""
+[1.151s] -- Execute custom install script
+[1.154s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/lib/csv_to_pointcloud2_converter/csv_to_pointcloud2_node
+[1.226s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/ament_index/resource_index/package_run_dependencies/csv_to_pointcloud2_converter
+[1.264s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/ament_index/resource_index/parent_prefix_path/csv_to_pointcloud2_converter
+[1.304s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/environment/ament_prefix_path.sh
+[1.352s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/environment/ament_prefix_path.dsv
+[1.405s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/environment/path.sh
+[1.486s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/environment/path.dsv
+[1.552s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/local_setup.bash
+[1.595s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/local_setup.sh
+[1.650s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/local_setup.zsh
+[1.694s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/local_setup.dsv
+[1.745s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/package.dsv
+[1.784s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/ament_index/resource_index/packages/csv_to_pointcloud2_converter
+[1.846s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/cmake/csv_to_pointcloud2_converterConfig.cmake
+[1.898s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/cmake/csv_to_pointcloud2_converterConfig-version.cmake
+[1.945s] -- Symlinking: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/package.xml
+[2.063s] Invoked command in '/root/ros2_ws/build/csv_to_pointcloud2_converter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/csv_to_pointcloud2_converter

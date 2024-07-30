@@ -1,0 +1,23 @@
+[0.179s] Invoking command in '/root/ros2_ws/build/projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/projection -- -j8 -l8
+[0.362s] [100%] Built target cone_detection_camera
+[0.515s] Invoked command in '/root/ros2_ws/build/projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/projection -- -j8 -l8
+[0.755s] Invoking command in '/root/ros2_ws/build/projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/projection
+[0.797s] -- Install configuration: ""
+[0.798s] -- Execute custom install script
+[0.798s] -- Up-to-date symlink: /root/ros2_ws/install/projection/lib/projection/cone_detection_camera
+[0.798s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/ament_index/resource_index/package_run_dependencies/projection
+[0.798s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/ament_index/resource_index/parent_prefix_path/projection
+[0.798s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/projection/environment/ament_prefix_path.sh
+[0.798s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/projection/environment/ament_prefix_path.dsv
+[0.798s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/projection/environment/path.sh
+[0.799s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/projection/environment/path.dsv
+[0.799s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/projection/local_setup.bash
+[0.802s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/projection/local_setup.sh
+[0.802s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/projection/local_setup.zsh
+[0.802s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/projection/local_setup.dsv
+[0.802s] -- Symlinking: /root/ros2_ws/install/projection/share/projection/package.dsv
+[0.821s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/ament_index/resource_index/packages/projection
+[0.821s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/projection/cmake/projectionConfig.cmake
+[0.822s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/projection/cmake/projectionConfig-version.cmake
+[0.822s] -- Up-to-date symlink: /root/ros2_ws/install/projection/share/projection/package.xml
+[1.580s] Invoked command in '/root/ros2_ws/build/projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/projection

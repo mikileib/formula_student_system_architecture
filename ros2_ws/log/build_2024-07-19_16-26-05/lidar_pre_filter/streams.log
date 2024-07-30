@@ -1,0 +1,101 @@
+[0.579s] Invoking command in '/root/ros2_ws/build/lidar_pre_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/lidar_pre_filter -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/lidar_pre_filter
+[0.714s] -- The C compiler identification is GNU 11.4.0
+[0.904s] -- The CXX compiler identification is GNU 11.4.0
+[0.919s] -- Detecting C compiler ABI info
+[1.102s] -- Detecting C compiler ABI info - done
+[1.121s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.127s] -- Detecting C compile features
+[1.127s] -- Detecting C compile features - done
+[1.136s] -- Detecting CXX compiler ABI info
+[1.339s] -- Detecting CXX compiler ABI info - done
+[1.361s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.362s] -- Detecting CXX compile features
+[1.365s] -- Detecting CXX compile features - done
+[1.374s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.858s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.162s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.280s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.296s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.322s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.648s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.660s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.972s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.050s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.212s] -- Looking for pthread.h
+[3.380s] -- Looking for pthread.h - found
+[3.380s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.552s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.555s] -- Found Threads: TRUE  
+[4.023s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.406s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[5.263s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.269s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.269s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.379s] -- Checking for module 'eigen3'
+[6.418s] --   Found eigen3, version 3.4.0
+[6.512s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.512s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.600s] -- Checking for module 'flann'
+[6.639s] --   Found flann, version 1.9.1
+[6.763s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[6.763s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[9.358s] -- Checking for module 'libusb-1.0'
+[9.403s] --   Found libusb-1.0, version 1.0.25
+[9.504s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.509s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.671s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.158s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.248s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.314s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.278s] -- Found Qhull version 8.0.2
+[12.087s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.686s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[12.690s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[12.694s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[12.695s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[12.698s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[12.699s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[12.700s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[12.702s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[12.704s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[12.708s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[12.713s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[12.713s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[12.716s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[12.721s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[12.729s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[12.729s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[12.730s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[12.733s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[12.740s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[12.740s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[12.743s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[12.748s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[12.748s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[12.749s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[12.759s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[13.065s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.384s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.393s] -- Configured cppcheck include dirs: /root/ros2_ws/src/formula_student_packages/lidar_pre_filter/include
+[13.393s] -- Configured cppcheck exclude dirs and/or files: 
+[13.393s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.399s] -- Added test 'lint_cmake' to check CMake code style
+[13.401s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.405s] -- Added test 'uncrustify' to check C / C++ code style
+[13.406s] -- Configured uncrustify additional arguments: 
+[13.408s] -- Added test 'xmllint' to check XML markup files
+[13.413s] -- Configuring done
+[13.524s] -- Generating done
+[13.533s] -- Build files have been written to: /root/ros2_ws/build/lidar_pre_filter
+[13.609s] Invoked command in '/root/ros2_ws/build/lidar_pre_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/lidar_pre_filter -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/lidar_pre_filter
+[13.619s] Invoking command in '/root/ros2_ws/build/lidar_pre_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_pre_filter -- -j8 -l8
+[15.970s] [ 50%] [32mBuilding CXX object CMakeFiles/filter_vehicle.dir/src/filter_vehicle.cpp.o[0m
+[104.700s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[104.706s] compilation terminated.
+[104.725s] gmake[2]: *** [CMakeFiles/filter_vehicle.dir/build.make:76: CMakeFiles/filter_vehicle.dir/src/filter_vehicle.cpp.o] Error 1
+[104.804s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/filter_vehicle.dir/all] Error 2
+[104.858s] gmake: *** [Makefile:146: all] Error 2
+[106.466s] Invoked command in '/root/ros2_ws/build/lidar_pre_filter' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_pre_filter -- -j8 -l8

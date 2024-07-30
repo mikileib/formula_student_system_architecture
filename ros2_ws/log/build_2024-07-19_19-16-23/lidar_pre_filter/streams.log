@@ -1,0 +1,28 @@
+[0.706s] Invoking command in '/root/ros2_ws/build/lidar_pre_filter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_pre_filter -- -j8 -l8
+[0.967s] [35m[1mConsolidate compiler generated dependencies of target filter_vehicle[0m
+[1.116s] [ 50%] [32m[1mLinking CXX executable filter_vehicle[0m
+[8.225s] [100%] Built target filter_vehicle
+[8.314s] Invoked command in '/root/ros2_ws/build/lidar_pre_filter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_pre_filter -- -j8 -l8
+[8.502s] Invoking command in '/root/ros2_ws/build/lidar_pre_filter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_pre_filter
+[12.493s] -- Install configuration: ""
+[12.493s] -- Execute custom install script
+[12.493s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch/filter_vehicle01.launch.py
+[12.493s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch/rviz01.launch.py
+[12.493s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/config/rviz01.rviz
+[12.494s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/lib/lidar_pre_filter/filter_vehicle
+[12.494s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/package_run_dependencies/lidar_pre_filter
+[12.494s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/parent_prefix_path/lidar_pre_filter
+[12.494s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/ament_prefix_path.sh
+[12.494s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/ament_prefix_path.dsv
+[12.495s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/path.sh
+[12.495s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/path.dsv
+[12.495s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.bash
+[12.495s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.sh
+[12.495s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.zsh
+[12.495s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.dsv
+[12.496s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.dsv
+[12.496s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/packages/lidar_pre_filter
+[12.496s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/cmake/lidar_pre_filterConfig.cmake
+[12.496s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/cmake/lidar_pre_filterConfig-version.cmake
+[12.496s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.xml
+[12.524s] Invoked command in '/root/ros2_ws/build/lidar_pre_filter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_pre_filter

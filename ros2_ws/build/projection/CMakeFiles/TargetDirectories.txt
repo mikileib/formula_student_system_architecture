@@ -1,0 +1,10 @@
+/root/ros2_ws/build/projection/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/projection/CMakeFiles/projection_uninstall.dir
+/root/ros2_ws/build/projection/CMakeFiles/cone_detection_camera.dir
+/root/ros2_ws/build/projection/CMakeFiles/test.dir
+/root/ros2_ws/build/projection/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/projection/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/projection/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/projection/CMakeFiles/install.dir
+/root/ros2_ws/build/projection/CMakeFiles/install/local.dir
+/root/ros2_ws/build/projection/CMakeFiles/install/strip.dir

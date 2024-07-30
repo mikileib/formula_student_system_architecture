@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target grid_trajectory[0m
+[35m[1mConsolidate compiler generated dependencies of target detection_simple[0m
+[ 25%] [32m[1mLinking CXX executable grid_trajectory[0m
+[ 50%] [32m[1mLinking CXX executable detection_simple[0m
+[ 75%] Built target grid_trajectory
+[100%] Built target detection_simple
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/detection_simple.launch.py
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/grid_detection.launch.py
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/rviz01.launch.py
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/config/rviz01.rviz
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/detection_simple
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/grid_trajectory
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/package_run_dependencies/cone_detection_lidar
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/parent_prefix_path/cone_detection_lidar
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/path.sh
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/path.dsv
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.bash
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.sh
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.zsh
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.dsv
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/package.dsv
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/packages/cone_detection_lidar
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/cmake/cone_detection_lidarConfig.cmake
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/cmake/cone_detection_lidarConfig-version.cmake
+-- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/package.xml

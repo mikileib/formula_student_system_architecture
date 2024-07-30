@@ -1,0 +1,3 @@
+[console_scripts]
+cone_detection_camera = detection.cone_detection_camera:main
+

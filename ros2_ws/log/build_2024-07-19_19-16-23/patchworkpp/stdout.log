@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target demo[0m
+[35m[1mConsolidate compiler generated dependencies of target patchworkpp[0m
+[ 25%] [32m[1mLinking CXX executable demo[0m
+[ 50%] [32m[1mLinking CXX shared library libpatchworkpp.so[0m
+[ 75%] Built target patchworkpp
+[100%] Built target demo
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/ros2_ws/install/patchworkpp/lib/libpatchworkpp.so
+-- Symlinking: /root/ros2_ws/install/patchworkpp/lib/patchworkpp/demo
+-- Symlinking: /root/ros2_ws/install/patchworkpp/include/patchworkpp/patchworkpp.hpp
+-- Symlinking: /root/ros2_ws/install/patchworkpp/include/patchworkpp/utils.hpp
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch/demo.launch.py
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch/rviz1.launch.py
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/config/params_ros2.yaml
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/demo.rviz
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/patchworkpp_viz.rviz
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/rviz1.rviz
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/package_run_dependencies/patchworkpp
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/parent_prefix_path/patchworkpp
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/path.sh
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/path.dsv
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.bash
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.sh
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.zsh
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.dsv
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/package.dsv
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/packages/patchworkpp
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig.cmake
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig-version.cmake
+-- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/package.xml

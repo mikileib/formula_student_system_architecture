@@ -1,0 +1,47 @@
+[3.014s] Invoking command in '/root/ros2_ws/build/prcp_object_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/object_fusion -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/prcp_object_fusion
+[3.124s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.040s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.145s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[4.469s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.513s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.589s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.790s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.326s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.328s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.107s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.839s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[7.016s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[7.947s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[7.966s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.966s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.756s] -- Configuring done
+[9.879s] -- Generating done
+[9.895s] -- Build files have been written to: /root/ros2_ws/build/prcp_object_fusion
+[9.948s] Invoked command in '/root/ros2_ws/build/prcp_object_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/object_fusion -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/prcp_object_fusion
+[9.949s] Invoking command in '/root/ros2_ws/build/prcp_object_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/prcp_object_fusion -- -j8 -l8
+[10.142s] [35m[1mConsolidate compiler generated dependencies of target prcp_object_fusion[0m
+[10.237s] [ 50%] [32m[1mLinking CXX executable prcp_object_fusion[0m
+[11.708s] [100%] Built target prcp_object_fusion
+[11.736s] Invoked command in '/root/ros2_ws/build/prcp_object_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/prcp_object_fusion -- -j8 -l8
+[11.821s] Invoking command in '/root/ros2_ws/build/prcp_object_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/prcp_object_fusion
+[11.838s] -- Install configuration: ""
+[11.838s] -- Execute custom install script
+[11.843s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/launch/run_all.launch.py
+[11.864s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/lib/prcp_object_fusion/prcp_object_fusion
+[11.883s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/package_run_dependencies/prcp_object_fusion
+[11.901s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/parent_prefix_path/prcp_object_fusion
+[11.925s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/ament_prefix_path.sh
+[11.948s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/ament_prefix_path.dsv
+[11.973s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/path.sh
+[12.005s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/path.dsv
+[12.021s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.bash
+[12.040s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.sh
+[12.057s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.zsh
+[12.075s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.dsv
+[12.095s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/package.dsv
+[12.126s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/packages/prcp_object_fusion
+[12.151s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/cmake/prcp_object_fusionConfig.cmake
+[12.168s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/cmake/prcp_object_fusionConfig-version.cmake
+[12.188s] -- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/package.xml
+[12.225s] Invoked command in '/root/ros2_ws/build/prcp_object_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/prcp_object_fusion

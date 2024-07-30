@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.000933] (-) JobUnselected: {'identifier': 'cone_detection_lidar'}
+[0.001074] (-) JobUnselected: {'identifier': 'csv_to_pointcloud2_converter'}
+[0.001168] (-) JobUnselected: {'identifier': 'detection'}
+[0.001530] (-) JobUnselected: {'identifier': 'formula_student_bringup'}
+[0.001640] (-) JobUnselected: {'identifier': 'lidar_cluster'}
+[0.001669] (-) JobUnselected: {'identifier': 'lidar_pre_filter'}
+[0.001697] (-) JobUnselected: {'identifier': 'patchworkpp'}
+[0.001784] (-) JobUnselected: {'identifier': 'pointcloud_publisher'}
+[0.001817] (-) JobUnselected: {'identifier': 'prcp_object_fusion'}
+[0.001838] (-) JobUnselected: {'identifier': 'projection'}
+[0.002097] (-) JobUnselected: {'identifier': 'racetrack_simulator'}
+[0.002189] (planner) JobQueued: {'identifier': 'planner', 'dependencies': OrderedDict()}
+[0.002726] (planner) JobStarted: {'identifier': 'planner'}
+[0.019464] (planner) JobProgress: {'identifier': 'planner', 'progress': 'cmake'}
+[0.020253] (planner) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/formula_student_packages/planner', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/planner'], 'cwd': '/root/ros2_ws/build/planner', 'env': OrderedDict([('HOSTNAME', '046548c16cfc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/patchworkpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/patchworkpp:/root/ros2_ws/install/lidar_pre_filter:/root/ros2_ws/install/lidar_cluster:/root/ros2_ws/install/formula_student_bringup:/root/ros2_ws/install/csv_to_pointcloud2_converter:/root/ros2_ws/install/cone_detection_lidar:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/planner'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/patchworkpp:/root/ros2_ws/install/lidar_pre_filter:/root/ros2_ws/install/lidar_cluster:/root/ros2_ws/install/formula_student_bringup:/root/ros2_ws/install/csv_to_pointcloud2_converter:/root/ros2_ws/install/cone_detection_lidar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble')]), 'shell': False}
+[0.098659] (-) TimerEvent: {}
+[0.160872] (planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199567] (-) TimerEvent: {}
+[0.253289] (planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.265391] (planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300626] (-) TimerEvent: {}
+[0.374386] (planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.384787] (planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.385247] (planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.385787] (planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.391204] (planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401544] (-) TimerEvent: {}
+[0.502546] (-) TimerEvent: {}
+[0.524101] (planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.535229] (planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.535713] (planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.536363] (planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.541786] (planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.603611] (-) TimerEvent: {}
+[0.704648] (-) TimerEvent: {}
+[0.805407] (-) TimerEvent: {}
+[0.834107] (planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.906815] (-) TimerEvent: {}
+[1.001609] (planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.007431] (-) TimerEvent: {}
+[1.085038] (planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.096059] (planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.108505] (-) TimerEvent: {}
+[1.113501] (planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.139678] (planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.174276] (planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.209483] (-) TimerEvent: {}
+[1.310441] (-) TimerEvent: {}
+[1.316712] (planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.322966] (planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.411446] (-) TimerEvent: {}
+[1.512545] (-) TimerEvent: {}
+[1.524785] (planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.573507] (planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.613418] (-) TimerEvent: {}
+[1.658391] (planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.679936] (planner) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.714734] (-) TimerEvent: {}
+[1.808614] (planner) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.809664] (planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.815439] (-) TimerEvent: {}
+[1.916594] (-) TimerEvent: {}
+[1.947785] (planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.949471] (planner) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.017595] (-) TimerEvent: {}
+[2.118478] (-) TimerEvent: {}
+[2.202111] (planner) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.219590] (-) TimerEvent: {}
+[2.270614] (planner) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.320567] (-) TimerEvent: {}
+[2.421597] (-) TimerEvent: {}
+[2.522574] (-) TimerEvent: {}
+[2.623620] (-) TimerEvent: {}
+[2.703236] (planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.719324] (planner) StdoutLine: {'line': b'-- Generating done\n'}
+[2.722465] (planner) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/planner\n'}
+[2.724491] (-) TimerEvent: {}
+[2.735165] (planner) CommandEnded: {'returncode': 0}
+[2.736867] (planner) JobProgress: {'identifier': 'planner', 'progress': 'build'}
+[2.741970] (planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/planner', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/planner', 'env': OrderedDict([('HOSTNAME', '046548c16cfc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/patchworkpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/patchworkpp:/root/ros2_ws/install/lidar_pre_filter:/root/ros2_ws/install/lidar_cluster:/root/ros2_ws/install/formula_student_bringup:/root/ros2_ws/install/csv_to_pointcloud2_converter:/root/ros2_ws/install/cone_detection_lidar:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/planner'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/patchworkpp:/root/ros2_ws/install/lidar_pre_filter:/root/ros2_ws/install/lidar_cluster:/root/ros2_ws/install/formula_student_bringup:/root/ros2_ws/install/csv_to_pointcloud2_converter:/root/ros2_ws/install/cone_detection_lidar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble')]), 'shell': False}
+[2.820277] (planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/plan_trajectory_planner.dir/src/local_planner.cpp.o\x1b[0m\n'}
+[2.825528] (-) TimerEvent: {}
+[2.926565] (-) TimerEvent: {}
+[3.027644] (-) TimerEvent: {}
+[3.128629] (-) TimerEvent: {}
+[3.229694] (-) TimerEvent: {}
+[3.331511] (-) TimerEvent: {}
+[3.432583] (-) TimerEvent: {}
+[3.533553] (-) TimerEvent: {}
+[3.634599] (-) TimerEvent: {}
+[3.735513] (-) TimerEvent: {}
+[3.837566] (-) TimerEvent: {}
+[3.938494] (-) TimerEvent: {}
+[4.039741] (-) TimerEvent: {}
+[4.141661] (-) TimerEvent: {}
+[4.242415] (-) TimerEvent: {}
+[4.343529] (-) TimerEvent: {}
+[4.444622] (-) TimerEvent: {}
+[4.546408] (-) TimerEvent: {}
+[4.647423] (-) TimerEvent: {}
+[4.748579] (-) TimerEvent: {}
+[4.849446] (-) TimerEvent: {}
+[4.950458] (-) TimerEvent: {}
+[5.051612] (-) TimerEvent: {}
+[5.152687] (-) TimerEvent: {}
+[5.253650] (-) TimerEvent: {}
+[5.355616] (-) TimerEvent: {}
+[5.456598] (-) TimerEvent: {}
+[5.557607] (-) TimerEvent: {}
+[5.658747] (-) TimerEvent: {}
+[5.759625] (-) TimerEvent: {}
+[5.860478] (-) TimerEvent: {}
+[5.961491] (-) TimerEvent: {}
+[6.062555] (-) TimerEvent: {}
+[6.163603] (-) TimerEvent: {}
+[6.264666] (-) TimerEvent: {}
+[6.365513] (-) TimerEvent: {}
+[6.466612] (-) TimerEvent: {}
+[6.567541] (-) TimerEvent: {}
+[6.668522] (-) TimerEvent: {}
+[6.769455] (-) TimerEvent: {}
+[6.871147] (-) TimerEvent: {}
+[6.972515] (-) TimerEvent: {}
+[7.073461] (-) TimerEvent: {}
+[7.174561] (-) TimerEvent: {}
+[7.256424] (planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/formula_student_packages/planner/src/local_planner.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLocalPlanner::LocalPlanner()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.256675] (planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/formula_student_packages/planner/src/local_planner.cpp:18:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.256758] (planner) StderrLine: {'line': b'   18 |         \x1b[01;31m\x1b[Ktimer\x1b[m\x1b[K = this->create_wall_timer(std::chrono::milliseconds(200), std::bind(&LocalPlanner::loop, this));\n'}
+[7.256825] (planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.256889] (planner) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktimer_\x1b[m\x1b[K\n'}
+[7.276686] (planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/formula_student_packages/planner/src/local_planner.cpp:19:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktraj_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktraj_pub_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.276927] (-) TimerEvent: {}
+[7.277165] (planner) StderrLine: {'line': b'   19 |         \x1b[01;31m\x1b[Ktraj_pub\x1b[m\x1b[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("/planner/trajectory", 10);\n'}
+[7.277670] (planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.277903] (planner) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktraj_pub_\x1b[m\x1b[K\n'}
+[7.291787] (planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/formula_student_packages/planner/src/local_planner.cpp:20:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KobjFusedLeft_sub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KobjFusedLeft_callback\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.292050] (planner) StderrLine: {'line': b'   20 |         \x1b[01;31m\x1b[KobjFusedLeft_sub\x1b[m\x1b[K = this->create_subscription<visualization_msgs::msg::MarkerArray>("/prcp_obj_list_left_fused", 10,  std::bind(&LocalPlanner::objFusedLeft_callback, this, std::placeholders::_1));\n'}
+[7.292131] (planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.292196] (planner) StderrLine: {'line': b'      |         \x1b[32m\x1b[KobjFusedLeft_callback\x1b[m\x1b[K\n'}
+[7.377473] (-) TimerEvent: {}
+[7.381529] (planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/formula_student_packages/planner/src/local_planner.cpp:21:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KobjFusedRight_sub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.381793] (planner) StderrLine: {'line': b'   21 |         \x1b[01;31m\x1b[KobjFusedRight_sub\x1b[m\x1b[K = this->create_subscription<visualization_msgs::msg::MarkerArray>("/prcp_obj_list_right_fused", 10,  std::bind(&LocalPlanner::objFusedRight_callback, this, std::placeholders::_1));\n'}
+[7.381879] (planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.381945] (planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/formula_student_packages/planner/src/local_planner.cpp:21:153:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KobjFusedRight_callback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KLocalPlanner\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.382010] (planner) StderrLine: {'line': b'   21 | _list_right_fused", 10,  std::bind(&LocalPlanner::\x1b[01;31m\x1b[KobjFusedRight_callback\x1b[m\x1b[K, this, std::placeholders::_1));\n'}
+[7.382073] (planner) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.382135] (planner) StderrLine: {'line': b'\n'}
+[7.389628] (planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/formula_student_packages/planner/src/local_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LocalPlanner::loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.389864] (planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/formula_student_packages/planner/src/local_planner.cpp:51:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.389950] (planner) StderrLine: {'line': b'   51 |         pose.position.x = \x1b[01;31m\x1b[Kx\x1b[m\x1b[K;\n'}
+[7.390225] (planner) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.399160] (planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/formula_student_packages/planner/src/local_planner.cpp:52:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kyn\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.399885] (planner) StderrLine: {'line': b'   52 |         pose.position.y = \x1b[01;31m\x1b[Ky\x1b[m\x1b[K;\n'}
+[7.400029] (planner) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.400110] (planner) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kyn\x1b[m\x1b[K\n'}
+[7.406406] (planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/formula_student_packages/planner/src/local_planner.cpp:54:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.406631] (planner) StderrLine: {'line': b'   54 |         point.marker.id = \x1b[01;31m\x1b[Ki\x1b[m\x1b[K;\n'}
+[7.406707] (planner) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.414900] (planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/formula_student_packages/planner/src/local_planner.cpp:57:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktraj_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktraj_pub_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.415166] (planner) StderrLine: {'line': b'   57 |         \x1b[01;31m\x1b[Ktraj_pub\x1b[m\x1b[K->publish(pose_msg);\n'}
+[7.415374] (planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.415465] (planner) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktraj_pub_\x1b[m\x1b[K\n'}
+[7.478554] (-) TimerEvent: {}
+[7.579749] (-) TimerEvent: {}
+[7.681515] (-) TimerEvent: {}
+[7.782571] (-) TimerEvent: {}
+[7.883694] (-) TimerEvent: {}
+[7.985472] (-) TimerEvent: {}
+[8.086641] (-) TimerEvent: {}
+[8.188772] (-) TimerEvent: {}
+[8.290604] (-) TimerEvent: {}
+[8.391525] (-) TimerEvent: {}
+[8.492485] (-) TimerEvent: {}
+[8.593628] (-) TimerEvent: {}
+[8.694596] (-) TimerEvent: {}
+[8.795534] (-) TimerEvent: {}
+[8.896597] (-) TimerEvent: {}
+[8.997611] (-) TimerEvent: {}
+[9.098651] (-) TimerEvent: {}
+[9.199612] (-) TimerEvent: {}
+[9.300671] (-) TimerEvent: {}
+[9.401651] (-) TimerEvent: {}
+[9.502546] (-) TimerEvent: {}
+[9.603468] (-) TimerEvent: {}
+[9.704441] (-) TimerEvent: {}
+[9.805488] (-) TimerEvent: {}
+[9.906604] (-) TimerEvent: {}
+[10.007508] (-) TimerEvent: {}
+[10.108583] (-) TimerEvent: {}
+[10.209488] (-) TimerEvent: {}
+[10.310703] (-) TimerEvent: {}
+[10.414026] (-) TimerEvent: {}
+[10.517595] (-) TimerEvent: {}
+[10.619360] (-) TimerEvent: {}
+[10.732654] (-) TimerEvent: {}
+[10.843524] (-) TimerEvent: {}
+[10.944548] (-) TimerEvent: {}
+[11.046723] (-) TimerEvent: {}
+[11.147750] (-) TimerEvent: {}
+[11.248672] (-) TimerEvent: {}
+[11.349403] (-) TimerEvent: {}
+[11.450545] (-) TimerEvent: {}
+[11.551546] (-) TimerEvent: {}
+[11.652449] (-) TimerEvent: {}
+[11.753639] (-) TimerEvent: {}
+[11.773334] (planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/plan_trajectory_planner.dir/build.make:76: CMakeFiles/plan_trajectory_planner.dir/src/local_planner.cpp.o] Error 1\n'}
+[11.773779] (planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/plan_trajectory_planner.dir/all] Error 2\n'}
+[11.774088] (planner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.777141] (planner) CommandEnded: {'returncode': 2}
+[11.843385] (planner) JobEnded: {'identifier': 'planner', 'rc': 2}
+[11.855022] (-) EventReactorShutdown: {}

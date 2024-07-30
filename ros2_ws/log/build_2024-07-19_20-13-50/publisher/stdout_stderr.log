@@ -1,0 +1,32 @@
+[  9%] [32mBuilding CXX object CMakeFiles/seeds_images.dir/src/seeds_images.cc.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/seeds_images.dir/include/publisher/seeds_util.cc.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/euroc_images.dir/src/euroc_images.cc.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/kitti_images.dir/include/publisher/kitti_util.cc.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/euroc_images.dir/include/publisher/euroc_util.cc.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/kitti_images.dir/src/kitti_images.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/openvslam_video.dir/src/openvslam_video.cc.o[0m
+In file included from [01m[K/root/ros2_ws/src/dataset_publisher_ros2/src/publisher/src/seeds_images.cc:6[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/root/ros2_ws/src/dataset_publisher_ros2/src/publisher/src/openvslam_video.cc:4[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/root/ros2_ws/src/dataset_publisher_ros2/src/publisher/src/kitti_images.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | image_transport.hpp' instead"[01;36m[K)[m[K
+      |                              [01;36m[K^[m[K
+
+In file included from [01m[K/root/ros2_ws/src/dataset_publisher_ros2/src/publisher/src/euroc_images.cc:3[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+[ 72%] [32m[1mLinking CXX executable openvslam_video[0m
+[ 81%] [32m[1mLinking CXX executable seeds_images[0m
+[ 90%] [32m[1mLinking CXX executable kitti_images[0m
+[100%] [32m[1mLinking CXX executable euroc_images[0m
+[100%] Built target seeds_images
+[100%] Built target kitti_images
+[100%] Built target openvslam_video
+[100%] Built target euroc_images

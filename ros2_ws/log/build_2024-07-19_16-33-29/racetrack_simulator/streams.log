@@ -1,0 +1,27 @@
+[0.086s] Invoking command in '/root/ros2_ws/build/racetrack_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/racetrack_simulator -- -j8 -l8
+[0.233s] [100%] Built target accuracy_meter
+[0.233s] [100%] Built target lidar_cone_sim
+[0.256s] Invoked command in '/root/ros2_ws/build/racetrack_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/racetrack_simulator -- -j8 -l8
+[0.372s] Invoking command in '/root/ros2_ws/build/racetrack_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/racetrack_simulator
+[0.389s] -- Install configuration: ""
+[0.390s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/launch
+[0.390s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/launch/accuracy_meter.launch.py
+[0.391s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/launch/lidar_cone_sim.launch.py
+[0.395s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/lib/racetrack_simulator/lidar_cone_sim
+[0.395s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/lib/racetrack_simulator/accuracy_meter
+[0.396s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/ament_index/resource_index/package_run_dependencies/racetrack_simulator
+[0.396s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/ament_index/resource_index/parent_prefix_path/racetrack_simulator
+[0.397s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/ament_prefix_path.sh
+[0.397s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/ament_prefix_path.dsv
+[0.397s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/path.sh
+[0.398s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/path.dsv
+[0.398s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.bash
+[0.398s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.sh
+[0.399s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.zsh
+[0.400s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.dsv
+[0.400s] -- Installing: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/package.dsv
+[0.400s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/ament_index/resource_index/packages/racetrack_simulator
+[0.400s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/cmake/racetrack_simulatorConfig.cmake
+[0.400s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/cmake/racetrack_simulatorConfig-version.cmake
+[0.402s] -- Up-to-date: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/package.xml
+[0.417s] Invoked command in '/root/ros2_ws/build/racetrack_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/racetrack_simulator

@@ -1,0 +1,22 @@
+[0.143s] Invoking command in '/root/ros2_ws/build/projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/projection -- -j8 -l8
+[0.289s] [100%] Built target cone_detection_camera
+[0.315s] Invoked command in '/root/ros2_ws/build/projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/projection -- -j8 -l8
+[0.510s] Invoking command in '/root/ros2_ws/build/projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/projection
+[0.529s] -- Install configuration: ""
+[0.531s] -- Up-to-date: /root/ros2_ws/install/projection/lib/projection/cone_detection_camera
+[0.533s] -- Up-to-date: /root/ros2_ws/install/projection/share/ament_index/resource_index/package_run_dependencies/projection
+[0.534s] -- Up-to-date: /root/ros2_ws/install/projection/share/ament_index/resource_index/parent_prefix_path/projection
+[0.535s] -- Up-to-date: /root/ros2_ws/install/projection/share/projection/environment/ament_prefix_path.sh
+[0.536s] -- Up-to-date: /root/ros2_ws/install/projection/share/projection/environment/ament_prefix_path.dsv
+[0.536s] -- Up-to-date: /root/ros2_ws/install/projection/share/projection/environment/path.sh
+[0.536s] -- Up-to-date: /root/ros2_ws/install/projection/share/projection/environment/path.dsv
+[0.536s] -- Up-to-date: /root/ros2_ws/install/projection/share/projection/local_setup.bash
+[0.536s] -- Up-to-date: /root/ros2_ws/install/projection/share/projection/local_setup.sh
+[0.537s] -- Up-to-date: /root/ros2_ws/install/projection/share/projection/local_setup.zsh
+[0.537s] -- Up-to-date: /root/ros2_ws/install/projection/share/projection/local_setup.dsv
+[0.537s] -- Installing: /root/ros2_ws/install/projection/share/projection/package.dsv
+[0.537s] -- Up-to-date: /root/ros2_ws/install/projection/share/ament_index/resource_index/packages/projection
+[0.537s] -- Up-to-date: /root/ros2_ws/install/projection/share/projection/cmake/projectionConfig.cmake
+[0.537s] -- Up-to-date: /root/ros2_ws/install/projection/share/projection/cmake/projectionConfig-version.cmake
+[0.538s] -- Up-to-date: /root/ros2_ws/install/projection/share/projection/package.xml
+[0.556s] Invoked command in '/root/ros2_ws/build/projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/projection

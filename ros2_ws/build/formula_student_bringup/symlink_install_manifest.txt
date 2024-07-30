@@ -1,0 +1,16 @@
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/launch/tf_static.launch.py
+/root/ros2_ws/install/formula_student_bringup/share/ament_index/resource_index/package_run_dependencies/formula_student_bringup
+/root/ros2_ws/install/formula_student_bringup/share/ament_index/resource_index/parent_prefix_path/formula_student_bringup
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/environment/ament_prefix_path.sh
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/environment/ament_prefix_path.dsv
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/environment/path.sh
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/environment/path.dsv
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/local_setup.bash
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/local_setup.sh
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/local_setup.zsh
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/local_setup.dsv
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.dsv
+/root/ros2_ws/install/formula_student_bringup/share/ament_index/resource_index/packages/formula_student_bringup
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/cmake/formula_student_bringupConfig.cmake
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/cmake/formula_student_bringupConfig-version.cmake
+/root/ros2_ws/install/formula_student_bringup/share/formula_student_bringup/package.xml

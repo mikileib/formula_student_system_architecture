@@ -1,0 +1,30 @@
+[0.580s] Invoking command in '/root/ros2_ws/build/lidar_pre_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_pre_filter -- -j8 -l8
+[0.766s] [ 50%] [32mBuilding CXX object CMakeFiles/filter_vehicle.dir/src/filter_vehicle.cpp.o[0m
+[29.052s] [100%] [32m[1mLinking CXX executable filter_vehicle[0m
+[30.817s] [100%] Built target filter_vehicle
+[30.837s] Invoked command in '/root/ros2_ws/build/lidar_pre_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_pre_filter -- -j8 -l8
+[30.911s] Invoking command in '/root/ros2_ws/build/lidar_pre_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_pre_filter
+[30.924s] -- Install configuration: ""
+[30.926s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch
+[30.926s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch/rviz01.launch.py
+[30.927s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch/filter_vehicle01.launch.py
+[30.927s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/config
+[30.928s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/config/rviz01.rviz
+[30.928s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/lib/lidar_pre_filter/filter_vehicle
+[30.933s] -- Set runtime path of "/root/ros2_ws/install/lidar_pre_filter/lib/lidar_pre_filter/filter_vehicle" to ""
+[30.933s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/package_run_dependencies/lidar_pre_filter
+[30.934s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/parent_prefix_path/lidar_pre_filter
+[30.936s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/ament_prefix_path.sh
+[30.936s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/ament_prefix_path.dsv
+[30.937s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/path.sh
+[30.937s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/path.dsv
+[30.938s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.bash
+[30.940s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.sh
+[30.941s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.zsh
+[30.941s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.dsv
+[30.943s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.dsv
+[30.943s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/packages/lidar_pre_filter
+[30.943s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/cmake/lidar_pre_filterConfig.cmake
+[30.944s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/cmake/lidar_pre_filterConfig-version.cmake
+[30.945s] -- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.xml
+[30.949s] Invoked command in '/root/ros2_ws/build/lidar_pre_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_pre_filter

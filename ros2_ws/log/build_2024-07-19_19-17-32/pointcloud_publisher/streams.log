@@ -1,0 +1,33 @@
+[1.732s] Invoking command in '/root/ros2_ws/build/pointcloud_publisher': PYTHONPATH=/root/ros2_ws/build/pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/build/pointcloud_publisher/build
+[3.356s] running develop
+[3.357s] Removing /root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud-publisher.egg-link (link to .)
+[3.357s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.357s]   warnings.warn(
+[3.358s] Invoked command in '/root/ros2_ws/build/pointcloud_publisher' returned '0': PYTHONPATH=/root/ros2_ws/build/pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/build/pointcloud_publisher/build
+[3.364s] Invoking command in '/root/ros2_ws/src/pointcloud_publisher': PYTHONPATH=/root/ros2_ws/build/pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pointcloud_publisher build --build-base /root/ros2_ws/build/pointcloud_publisher/build install --record /root/ros2_ws/build/pointcloud_publisher/install.log --single-version-externally-managed install_data --force
+[4.056s] running egg_info
+[4.057s] writing ../../build/pointcloud_publisher/pointcloud_publisher.egg-info/PKG-INFO
+[4.063s] writing dependency_links to ../../build/pointcloud_publisher/pointcloud_publisher.egg-info/dependency_links.txt
+[4.063s] writing entry points to ../../build/pointcloud_publisher/pointcloud_publisher.egg-info/entry_points.txt
+[4.064s] writing requirements to ../../build/pointcloud_publisher/pointcloud_publisher.egg-info/requires.txt
+[4.065s] writing top-level names to ../../build/pointcloud_publisher/pointcloud_publisher.egg-info/top_level.txt
+[4.066s] reading manifest file '../../build/pointcloud_publisher/pointcloud_publisher.egg-info/SOURCES.txt'
+[4.066s] writing manifest file '../../build/pointcloud_publisher/pointcloud_publisher.egg-info/SOURCES.txt'
+[4.067s] running build
+[4.067s] running build_py
+[4.071s] running install
+[4.072s] running install_lib
+[4.074s] creating /root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher
+[4.074s] copying /root/ros2_ws/build/pointcloud_publisher/build/lib/pointcloud_publisher/pointcloud_publisher.py -> /root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher
+[4.075s] copying /root/ros2_ws/build/pointcloud_publisher/build/lib/pointcloud_publisher/__init__.py -> /root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher
+[4.077s] byte-compiling /root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher/pointcloud_publisher.py to pointcloud_publisher.cpython-310.pyc
+[4.080s] byte-compiling /root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher/__init__.py to __init__.cpython-310.pyc
+[4.080s] running install_data
+[4.080s] copying resource/pointcloud_publisher -> /root/ros2_ws/install/pointcloud_publisher/share/ament_index/resource_index/packages
+[4.081s] copying package.xml -> /root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher
+[4.081s] running install_egg_info
+[4.085s] Copying ../../build/pointcloud_publisher/pointcloud_publisher.egg-info to /root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud_publisher-0.0.0-py3.10.egg-info
+[4.088s] running install_scripts
+[4.141s] Installing pointcloud_publisher script to /root/ros2_ws/install/pointcloud_publisher/lib/pointcloud_publisher
+[4.141s] writing list of installed files to '/root/ros2_ws/build/pointcloud_publisher/install.log'
+[4.537s] Invoked command in '/root/ros2_ws/src/pointcloud_publisher' returned '0': PYTHONPATH=/root/ros2_ws/build/pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pointcloud_publisher build --build-base /root/ros2_ws/build/pointcloud_publisher/build install --record /root/ros2_ws/build/pointcloud_publisher/install.log --single-version-externally-managed install_data --force

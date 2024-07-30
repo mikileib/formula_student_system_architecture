@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target kitti_images[0m
+[35m[1mConsolidate compiler generated dependencies of target openvslam_video[0m
+[35m[1mConsolidate compiler generated dependencies of target seeds_images[0m
+[35m[1mConsolidate compiler generated dependencies of target euroc_images[0m
+[ 27%] Built target kitti_images
+[ 45%] Built target openvslam_video
+[ 72%] Built target euroc_images
+[100%] Built target seeds_images
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/publisher/lib/publisher/kitti_images
+-- Set runtime path of "/root/ros2_ws/install/publisher/lib/publisher/kitti_images" to ""
+-- Installing: /root/ros2_ws/install/publisher/lib/publisher/openvslam_video
+-- Set runtime path of "/root/ros2_ws/install/publisher/lib/publisher/openvslam_video" to ""
+-- Installing: /root/ros2_ws/install/publisher/lib/publisher/seeds_images
+-- Set runtime path of "/root/ros2_ws/install/publisher/lib/publisher/seeds_images" to ""
+-- Installing: /root/ros2_ws/install/publisher/lib/publisher/euroc_images
+-- Set runtime path of "/root/ros2_ws/install/publisher/lib/publisher/euroc_images" to ""
+-- Installing: /root/ros2_ws/install/publisher/share/ament_index/resource_index/package_run_dependencies/publisher
+-- Installing: /root/ros2_ws/install/publisher/share/ament_index/resource_index/parent_prefix_path/publisher
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/environment/path.sh
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/environment/path.dsv
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/local_setup.bash
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/local_setup.sh
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/local_setup.zsh
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/local_setup.dsv
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/package.dsv
+-- Installing: /root/ros2_ws/install/publisher/share/ament_index/resource_index/packages/publisher
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/cmake/publisherConfig.cmake
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/cmake/publisherConfig-version.cmake
+-- Installing: /root/ros2_ws/install/publisher/share/publisher/package.xml

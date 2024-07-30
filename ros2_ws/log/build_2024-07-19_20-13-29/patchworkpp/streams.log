@@ -1,0 +1,35 @@
+[0.831s] Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/patchworkpp -- -j8 -l8
+[1.282s] [ 50%] Built target demo
+[1.291s] [100%] Built target patchworkpp
+[1.388s] Invoked command in '/root/ros2_ws/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/patchworkpp -- -j8 -l8
+[2.137s] Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/patchworkpp
+[2.154s] -- Install configuration: "Release"
+[2.155s] -- Execute custom install script
+[2.160s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/lib/libpatchworkpp.so
+[2.161s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/lib/patchworkpp/demo
+[2.162s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/include/patchworkpp/patchworkpp.hpp
+[2.163s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/include/patchworkpp/utils.hpp
+[2.164s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch/demo.launch.py
+[2.164s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch/rviz1.launch.py
+[2.165s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/config/params_ros2.yaml
+[2.169s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/demo.rviz
+[2.170s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/patchworkpp_viz.rviz
+[2.171s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/rviz1.rviz
+[2.173s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/package_run_dependencies/patchworkpp
+[2.173s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/parent_prefix_path/patchworkpp
+[2.174s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.sh
+[2.174s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.dsv
+[2.174s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/path.sh
+[2.174s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/path.dsv
+[2.174s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.bash
+[2.174s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.sh
+[2.175s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.zsh
+[2.175s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.dsv
+[2.175s] -- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/package.dsv
+[2.187s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/packages/patchworkpp
+[2.188s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.189s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.193s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig.cmake
+[2.193s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig-version.cmake
+[2.193s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/package.xml
+[2.354s] Invoked command in '/root/ros2_ws/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/patchworkpp

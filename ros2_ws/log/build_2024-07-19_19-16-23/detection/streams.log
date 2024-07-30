@@ -1,0 +1,20 @@
+[5.645s] Invoking command in '/root/ros2_ws/build/detection': PYTHONPATH=/root/ros2_ws/build/detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/detection/build --no-deps symlink_data
+[6.929s] running develop
+[6.936s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.936s]   warnings.warn(
+[7.580s] running egg_info
+[7.583s] writing detection.egg-info/PKG-INFO
+[7.586s] writing dependency_links to detection.egg-info/dependency_links.txt
+[7.586s] writing entry points to detection.egg-info/entry_points.txt
+[7.591s] writing requirements to detection.egg-info/requires.txt
+[7.592s] writing top-level names to detection.egg-info/top_level.txt
+[7.592s] reading manifest file 'detection.egg-info/SOURCES.txt'
+[7.594s] writing manifest file 'detection.egg-info/SOURCES.txt'
+[7.609s] running build_ext
+[7.610s] Creating /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection.egg-link (link to .)
+[7.625s] Installing cone_detection_camera script to /root/ros2_ws/install/detection/lib/detection
+[7.630s] 
+[7.630s] Installed /root/ros2_ws/build/detection
+[7.631s] running symlink_data
+[7.637s] symbolically linking /root/ros2_ws/build/detection/detection/resources/class.names -> /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection/resources/
+[7.768s] Invoked command in '/root/ros2_ws/build/detection' returned '0': PYTHONPATH=/root/ros2_ws/build/detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/detection/build --no-deps symlink_data

@@ -1,0 +1,2 @@
+source;share/formula_student_bringup/environment/ament_prefix_path.sh
+source;share/formula_student_bringup/environment/path.sh

@@ -1,0 +1,130 @@
+[1.596s] Invoking command in '/root/ros2_ws/build/yolov5_ros': AMENT_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/bboxes_ex_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/yolov5_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages:/root/ros2_ws/install/bboxes_ex_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/build/yolov5_ros/build
+[1.954s] running develop
+[1.954s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.954s]   warnings.warn(
+[2.189s] Removing /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5-ros.egg-link (link to .)
+[2.234s] Invoked command in '/root/ros2_ws/build/yolov5_ros' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/bboxes_ex_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/yolov5_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages:/root/ros2_ws/install/bboxes_ex_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/build/yolov5_ros/build
+[2.235s] Invoking command in '/root/ros2_ws/src/YOLOv5-ROS/yolov5_ros': AMENT_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/bboxes_ex_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/yolov5_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages:/root/ros2_ws/install/bboxes_ex_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov5_ros build --build-base /root/ros2_ws/build/yolov5_ros/build install --record /root/ros2_ws/build/yolov5_ros/install.log --single-version-externally-managed install_data --force
+[2.605s] running egg_info
+[2.606s] writing ../../../build/yolov5_ros/yolov5_ros.egg-info/PKG-INFO
+[2.607s] writing dependency_links to ../../../build/yolov5_ros/yolov5_ros.egg-info/dependency_links.txt
+[2.607s] writing entry points to ../../../build/yolov5_ros/yolov5_ros.egg-info/entry_points.txt
+[2.608s] writing requirements to ../../../build/yolov5_ros/yolov5_ros.egg-info/requires.txt
+[2.608s] writing top-level names to ../../../build/yolov5_ros/yolov5_ros.egg-info/top_level.txt
+[2.611s] reading manifest file '../../../build/yolov5_ros/yolov5_ros.egg-info/SOURCES.txt'
+[2.613s] writing manifest file '../../../build/yolov5_ros/yolov5_ros.egg-info/SOURCES.txt'
+[2.613s] running build
+[2.614s] running build_py
+[2.614s] creating /root/ros2_ws/build/yolov5_ros/build
+[2.614s] creating /root/ros2_ws/build/yolov5_ros/build/lib
+[2.615s] creating /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros
+[2.615s] copying yolov5_ros/__init__.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros
+[2.615s] copying yolov5_ros/export.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros
+[2.616s] copying yolov5_ros/main.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros
+[2.617s] creating /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.617s] copying yolov5_ros/utils/datasets.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.619s] copying yolov5_ros/utils/activations.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.620s] copying yolov5_ros/utils/downloads.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.620s] copying yolov5_ros/utils/autoanchor.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.621s] copying yolov5_ros/utils/autobatch.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.622s] copying yolov5_ros/utils/loss.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.623s] copying yolov5_ros/utils/callbacks.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.624s] copying yolov5_ros/utils/__init__.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.625s] copying yolov5_ros/utils/augmentations.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.625s] copying yolov5_ros/utils/general.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.627s] copying yolov5_ros/utils/plots.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.628s] copying yolov5_ros/utils/benchmarks.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.628s] copying yolov5_ros/utils/torch_utils.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.629s] copying yolov5_ros/utils/metrics.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils
+[2.630s] creating /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/models
+[2.630s] copying yolov5_ros/models/experimental.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/models
+[2.631s] copying yolov5_ros/models/__init__.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/models
+[2.631s] copying yolov5_ros/models/yolo.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/models
+[2.632s] copying yolov5_ros/models/tf.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/models
+[2.633s] copying yolov5_ros/models/common.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/models
+[2.634s] creating /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/aws
+[2.635s] copying yolov5_ros/utils/aws/__init__.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/aws
+[2.635s] copying yolov5_ros/utils/aws/resume.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/aws
+[2.635s] creating /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers
+[2.636s] copying yolov5_ros/utils/loggers/__init__.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers
+[2.636s] creating /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers/wandb
+[2.636s] copying yolov5_ros/utils/loggers/wandb/wandb_utils.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers/wandb
+[2.637s] copying yolov5_ros/utils/loggers/wandb/sweep.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers/wandb
+[2.638s] copying yolov5_ros/utils/loggers/wandb/log_dataset.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers/wandb
+[2.638s] copying yolov5_ros/utils/loggers/wandb/__init__.py -> /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers/wandb
+[2.640s] running install
+[2.640s] running install_lib
+[2.642s] creating /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros
+[2.642s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/__init__.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros
+[2.642s] creating /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.642s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/datasets.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.643s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/activations.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.643s] creating /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/aws
+[2.643s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/aws/__init__.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/aws
+[2.643s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/aws/resume.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/aws
+[2.644s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/downloads.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.644s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/autoanchor.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.644s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/autobatch.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.645s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loss.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.645s] creating /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers
+[2.645s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers/__init__.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers
+[2.645s] creating /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers/wandb
+[2.645s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers/wandb/wandb_utils.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers/wandb
+[2.646s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers/wandb/sweep.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers/wandb
+[2.646s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers/wandb/log_dataset.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers/wandb
+[2.646s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/loggers/wandb/__init__.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers/wandb
+[2.647s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/callbacks.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.647s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/__init__.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.647s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/augmentations.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.647s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/general.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.648s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/plots.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.648s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/benchmarks.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.648s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/torch_utils.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.649s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/utils/metrics.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils
+[2.649s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/export.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros
+[2.649s] creating /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/models
+[2.649s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/models/experimental.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/models
+[2.649s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/models/__init__.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/models
+[2.649s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/models/yolo.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/models
+[2.650s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/models/tf.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/models
+[2.650s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/models/common.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/models
+[2.650s] copying /root/ros2_ws/build/yolov5_ros/build/lib/yolov5_ros/main.py -> /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros
+[2.651s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/__init__.py to __init__.cpython-310.pyc
+[2.652s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/datasets.py to datasets.cpython-310.pyc
+[2.666s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/activations.py to activations.cpython-310.pyc
+[2.668s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/aws/__init__.py to __init__.cpython-310.pyc
+[2.669s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/aws/resume.py to resume.cpython-310.pyc
+[2.669s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/downloads.py to downloads.cpython-310.pyc
+[2.670s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/autoanchor.py to autoanchor.cpython-310.pyc
+[2.672s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/autobatch.py to autobatch.cpython-310.pyc
+[2.673s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loss.py to loss.cpython-310.pyc
+[2.676s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers/__init__.py to __init__.cpython-310.pyc
+[2.679s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers/wandb/wandb_utils.py to wandb_utils.cpython-310.pyc
+[2.684s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers/wandb/sweep.py to sweep.cpython-310.pyc
+[2.685s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers/wandb/log_dataset.py to log_dataset.cpython-310.pyc
+[2.685s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/loggers/wandb/__init__.py to __init__.cpython-310.pyc
+[2.686s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/callbacks.py to callbacks.cpython-310.pyc
+[2.686s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/__init__.py to __init__.cpython-310.pyc
+[2.687s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/augmentations.py to augmentations.cpython-310.pyc
+[2.691s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/general.py to general.cpython-310.pyc
+[2.702s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/plots.py to plots.cpython-310.pyc
+[2.708s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/benchmarks.py to benchmarks.cpython-310.pyc
+[2.710s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/torch_utils.py to torch_utils.cpython-310.pyc
+[2.713s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/utils/metrics.py to metrics.cpython-310.pyc
+[2.717s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/export.py to export.cpython-310.pyc
+[2.722s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/models/experimental.py to experimental.cpython-310.pyc
+[2.724s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/models/__init__.py to __init__.cpython-310.pyc
+[2.725s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/models/yolo.py to yolo.cpython-310.pyc
+[2.729s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/models/tf.py to tf.cpython-310.pyc
+[2.735s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/models/common.py to common.cpython-310.pyc
+[2.743s] byte-compiling /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros/main.py to main.cpython-310.pyc
+[2.746s] running install_data
+[2.747s] copying resource/yolov5_ros -> /root/ros2_ws/install/yolov5_ros/share/ament_index/resource_index/packages
+[2.747s] copying package.xml -> /root/ros2_ws/install/yolov5_ros/share/yolov5_ros
+[2.747s] copying ./launch/yolov5s_simple.launch.py -> /root/ros2_ws/install/yolov5_ros/share/yolov5_ros
+[2.748s] running install_egg_info
+[2.750s] Copying ../../../build/yolov5_ros/yolov5_ros.egg-info to /root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages/yolov5_ros-0.2.0-py3.10.egg-info
+[2.752s] running install_scripts
+[2.765s] Installing yolov5_ros script to /root/ros2_ws/install/yolov5_ros/lib/yolov5_ros
+[2.767s] writing list of installed files to '/root/ros2_ws/build/yolov5_ros/install.log'
+[2.807s] Invoked command in '/root/ros2_ws/src/YOLOv5-ROS/yolov5_ros' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/bboxes_ex_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/bboxes_ex_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/yolov5_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/yolov5_ros/lib/python3.10/site-packages:/root/ros2_ws/install/bboxes_ex_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov5_ros build --build-base /root/ros2_ws/build/yolov5_ros/build install --record /root/ros2_ws/build/yolov5_ros/install.log --single-version-externally-managed install_data --force

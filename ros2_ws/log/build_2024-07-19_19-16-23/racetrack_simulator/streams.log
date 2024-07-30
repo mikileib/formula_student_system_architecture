@@ -1,0 +1,71 @@
+[0.039s] Invoking command in '/root/ros2_ws/build/racetrack_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/racetrack_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/racetrack_simulator
+[1.413s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.413s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.418s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.418s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.419s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.419s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.531s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.537s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.025s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.569s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.018s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.397s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[4.678s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.687s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.970s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.054s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[6.849s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.872s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.230s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.247s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.268s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.597s] -- Found Qhull version 8.0.2
+[7.911s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.521s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.656s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.660s] -- Configured cppcheck include dirs: /root/ros2_ws/src/formula_student_packages/racetrack_simulator/include
+[8.660s] -- Configured cppcheck exclude dirs and/or files: 
+[8.661s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.662s] -- Added test 'lint_cmake' to check CMake code style
+[8.662s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.663s] -- Added test 'uncrustify' to check C / C++ code style
+[8.663s] -- Configured uncrustify additional arguments: 
+[8.664s] -- Added test 'xmllint' to check XML markup files
+[8.668s] -- Configuring done
+[8.853s] -- Generating done
+[8.859s] -- Build files have been written to: /root/ros2_ws/build/racetrack_simulator
+[8.885s] Invoked command in '/root/ros2_ws/build/racetrack_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/racetrack_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/racetrack_simulator
+[8.890s] Invoking command in '/root/ros2_ws/build/racetrack_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/racetrack_simulator -- -j8 -l8
+[8.971s] [35m[1mConsolidate compiler generated dependencies of target lidar_cone_sim[0m
+[8.972s] [35m[1mConsolidate compiler generated dependencies of target accuracy_meter[0m
+[9.016s] [ 25%] [32m[1mLinking CXX executable accuracy_meter[0m
+[9.019s] [ 50%] [32m[1mLinking CXX executable lidar_cone_sim[0m
+[9.967s] [ 75%] Built target accuracy_meter
+[10.589s] [100%] Built target lidar_cone_sim
+[10.606s] Invoked command in '/root/ros2_ws/build/racetrack_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/racetrack_simulator -- -j8 -l8
+[10.673s] Invoking command in '/root/ros2_ws/build/racetrack_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/racetrack_simulator
+[10.685s] -- Install configuration: ""
+[10.686s] -- Execute custom install script
+[10.688s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/launch/accuracy_meter.launch.py
+[10.703s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/launch/lidar_cone_sim.launch.py
+[10.718s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/lib/racetrack_simulator/lidar_cone_sim
+[10.733s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/lib/racetrack_simulator/accuracy_meter
+[10.747s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/ament_index/resource_index/package_run_dependencies/racetrack_simulator
+[10.762s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/ament_index/resource_index/parent_prefix_path/racetrack_simulator
+[10.778s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/ament_prefix_path.sh
+[10.794s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/ament_prefix_path.dsv
+[10.808s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/path.sh
+[10.822s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/path.dsv
+[10.835s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.bash
+[10.849s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.sh
+[10.863s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.zsh
+[10.878s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.dsv
+[10.894s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/package.dsv
+[10.908s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/ament_index/resource_index/packages/racetrack_simulator
+[10.923s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/cmake/racetrack_simulatorConfig.cmake
+[10.937s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/cmake/racetrack_simulatorConfig-version.cmake
+[10.951s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/package.xml
+[10.968s] Invoked command in '/root/ros2_ws/build/racetrack_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/racetrack_simulator

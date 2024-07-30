@@ -1,0 +1,43 @@
+[0.585s] Invoking command in '/root/ros2_ws/build/lidar_cluster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_cluster -- -j8 -l8
+[0.740s] [ 13%] Built target dbscan_grid
+[0.761s] [ 26%] Built target dblane_spatial
+[0.773s] [ 40%] Built target dblane_f1s
+[0.789s] [ 60%] Built target dbscan_spatial
+[0.798s] [ 86%] Built target euclidean_grid
+[0.803s] [100%] Built target euclidean_spatial
+[0.860s] Invoked command in '/root/ros2_ws/build/lidar_cluster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_cluster -- -j8 -l8
+[1.017s] Invoking command in '/root/ros2_ws/build/lidar_cluster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_cluster
+[1.042s] -- Install configuration: ""
+[1.043s] -- Execute custom install script
+[1.043s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dblane_f1s.launch.py
+[1.043s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dblane_spatial.launch.py
+[1.043s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dbscan_spatial.launch.py
+[1.044s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/euclidean_grid.launch.py
+[1.046s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/euclidean_spatial.launch.py
+[1.048s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/rviz01.launch.py
+[1.049s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/rviz02.launch.py
+[1.053s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/.gitkeep
+[1.056s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/rviz01.rviz
+[1.056s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/rviz02.rviz
+[1.057s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_spatial
+[1.057s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_grid
+[1.058s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_spatial
+[1.058s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_spatial
+[1.059s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_f1s
+[1.059s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_grid
+[1.059s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/package_run_dependencies/lidar_cluster
+[1.059s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/parent_prefix_path/lidar_cluster
+[1.059s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/ament_prefix_path.sh
+[1.060s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/ament_prefix_path.dsv
+[1.060s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/path.sh
+[1.060s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/path.dsv
+[1.060s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.bash
+[1.061s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.sh
+[1.061s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.zsh
+[1.061s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.dsv
+[1.062s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/package.dsv
+[1.079s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/packages/lidar_cluster
+[1.081s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig.cmake
+[1.082s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig-version.cmake
+[1.082s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/package.xml
+[1.167s] Invoked command in '/root/ros2_ws/build/lidar_cluster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_cluster

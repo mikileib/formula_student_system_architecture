@@ -1,0 +1,26 @@
+[0.067s] Invoking command in '/root/ros2_ws/build/prcp_object_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/prcp_object_fusion -- -j8 -l8
+[0.212s] [35m[1mConsolidate compiler generated dependencies of target prcp_object_fusion[0m
+[0.307s] [100%] Built target prcp_object_fusion
+[0.369s] Invoked command in '/root/ros2_ws/build/prcp_object_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/prcp_object_fusion -- -j8 -l8
+[0.568s] Invoking command in '/root/ros2_ws/build/prcp_object_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/prcp_object_fusion
+[0.601s] -- Install configuration: ""
+[0.601s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/launch
+[0.602s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/launch/run_all.launch.py
+[0.603s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/lib/prcp_object_fusion/prcp_object_fusion
+[0.617s] -- Set runtime path of "/root/ros2_ws/install/prcp_object_fusion/lib/prcp_object_fusion/prcp_object_fusion" to ""
+[0.618s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/package_run_dependencies/prcp_object_fusion
+[0.623s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/parent_prefix_path/prcp_object_fusion
+[0.624s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/ament_prefix_path.sh
+[0.624s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/ament_prefix_path.dsv
+[0.627s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/path.sh
+[0.628s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/path.dsv
+[0.630s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.bash
+[0.633s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.sh
+[0.633s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.zsh
+[0.633s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.dsv
+[0.636s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/package.dsv
+[0.637s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/packages/prcp_object_fusion
+[0.640s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/cmake/prcp_object_fusionConfig.cmake
+[0.641s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/cmake/prcp_object_fusionConfig-version.cmake
+[0.644s] -- Installing: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/package.xml
+[0.651s] Invoked command in '/root/ros2_ws/build/prcp_object_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/prcp_object_fusion

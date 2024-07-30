@@ -1,0 +1,4 @@
+Invoking command in '/root/ros2_ws/build/cone_detection_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/cone_detection_lidar -- -j8 -l8
+Invoked command in '/root/ros2_ws/build/cone_detection_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/cone_detection_lidar -- -j8 -l8
+Invoking command in '/root/ros2_ws/build/cone_detection_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/cone_detection_lidar
+Invoked command in '/root/ros2_ws/build/cone_detection_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/cone_detection_lidar

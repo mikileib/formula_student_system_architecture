@@ -1,0 +1,13 @@
+/root/ros2_ws/build/publisher/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/publisher/CMakeFiles/publisher_uninstall.dir
+/root/ros2_ws/build/publisher/CMakeFiles/kitti_images.dir
+/root/ros2_ws/build/publisher/CMakeFiles/openvslam_video.dir
+/root/ros2_ws/build/publisher/CMakeFiles/seeds_images.dir
+/root/ros2_ws/build/publisher/CMakeFiles/euroc_images.dir
+/root/ros2_ws/build/publisher/CMakeFiles/test.dir
+/root/ros2_ws/build/publisher/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/publisher/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/publisher/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/publisher/CMakeFiles/install.dir
+/root/ros2_ws/build/publisher/CMakeFiles/install/local.dir
+/root/ros2_ws/build/publisher/CMakeFiles/install/strip.dir

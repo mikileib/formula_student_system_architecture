@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target dbscan_spatial[0m
+[ 13%] Built target dbscan_grid
+[ 26%] Built target dblane_spatial
+[ 40%] Built target dblane_f1s
+[ 53%] Built target euclidean_spatial
+[ 73%] Built target dbscan_spatial
+[100%] Built target euclidean_grid
+-- Install configuration: ""
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/rviz01.launch.py
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dbscan_spatial.launch.py
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/euclidean_spatial.launch.py
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dblane_f1s.launch.py
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dblane_spatial.launch.py
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/rviz02.launch.py
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/euclidean_grid.launch.py
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/rviz01.rviz
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/.gitkeep
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/rviz02.rviz
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_spatial
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_grid
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_spatial
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_spatial
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_f1s
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_grid
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/package_run_dependencies/lidar_cluster
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/parent_prefix_path/lidar_cluster
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/path.sh
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/path.dsv
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.bash
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.sh
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.zsh
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.dsv
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/package.dsv
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/packages/lidar_cluster
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig.cmake
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig-version.cmake
+-- Up-to-date: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/package.xml

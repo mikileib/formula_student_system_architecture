@@ -1,0 +1,91 @@
+[0.029s] Invoking command in '/root/ros2_ws/build/projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/projection
+[5.667s] -- The C compiler identification is GNU 11.4.0
+[5.668s] -- The CXX compiler identification is GNU 11.4.0
+[5.668s] -- Detecting C compiler ABI info
+[5.668s] -- Detecting C compiler ABI info - done
+[5.668s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.668s] -- Detecting C compile features
+[5.669s] -- Detecting C compile features - done
+[5.669s] -- Detecting CXX compiler ABI info
+[5.669s] -- Detecting CXX compiler ABI info - done
+[5.669s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.669s] -- Detecting CXX compile features
+[5.674s] -- Detecting CXX compile features - done
+[5.674s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.674s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.674s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[5.675s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.675s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.675s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.675s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.675s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.675s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.676s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.676s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.676s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.676s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.677s] -- Looking for pthread.h
+[5.681s] -- Looking for pthread.h - found
+[5.681s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.681s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.683s] -- Found Threads: TRUE  
+[5.683s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[5.684s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.684s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.684s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.684s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.684s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.685s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.685s] -- Configured cppcheck include dirs: /root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/include/projection;$<BUILD_INTERFACE:/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/include>
+[5.688s] -- Configured cppcheck exclude dirs and/or files: 
+[5.688s] -- Added test 'lint_cmake' to check CMake code style
+[5.688s] -- Added test 'uncrustify' to check C / C++ code style
+[5.689s] -- Configured uncrustify additional arguments: 
+[5.689s] -- Added test 'xmllint' to check XML markup files
+[5.689s] -- Configuring done
+[5.690s] -- Generating done
+[5.690s] -- Build files have been written to: /root/ros2_ws/build/projection
+[5.729s] Invoked command in '/root/ros2_ws/build/projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/projection
+[5.730s] Invoking command in '/root/ros2_ws/build/projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/projection -- -j8 -l8
+[8.972s] [ 10%] [32mBuilding CXX object CMakeFiles/cone_detection_camera.dir/src/CheckingVariables.cpp.o[0m
+[8.972s] [ 20%] [32mBuilding CXX object CMakeFiles/cone_detection_camera.dir/src/cone_detection_camera.cpp.o[0m
+[8.973s] [ 30%] [32mBuilding CXX object CMakeFiles/cone_detection_camera.dir/src/ITransform.cpp.o[0m
+[8.973s] [ 40%] [32mBuilding CXX object CMakeFiles/cone_detection_camera.dir/src/Cone.cpp.o[0m
+[8.973s] [ 50%] [32mBuilding CXX object CMakeFiles/cone_detection_camera.dir/src/Particle.cpp.o[0m
+[8.977s] [ 70%] [32mBuilding CXX object CMakeFiles/cone_detection_camera.dir/src/ProjectionHandler.cpp.o[0m
+[8.978s] [ 70%] [32mBuilding CXX object CMakeFiles/cone_detection_camera.dir/src/Position.cpp.o[0m
+[8.978s] [ 80%] [32mBuilding CXX object CMakeFiles/cone_detection_camera.dir/src/RosHandler.cpp.o[0m
+[8.978s] [ 90%] [32mBuilding CXX object CMakeFiles/cone_detection_camera.dir/src/Validation.cpp.o[0m
+[8.978s] In file included from [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/Particle.cpp:1[m[K:
+[8.978s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/include/projection/Particle.h:[m[K In constructor ‘[01m[KParticle::Particle(int, float, float)[m[K’:
+[8.978s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/include/projection/Particle.h:20:19:[m[K [01;35m[Kwarning: [m[K‘[01m[KParticle::m_id[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[8.979s]    20 |         const int [01;35m[Km_id[m[K;
+[8.979s]       |                   [01;35m[K^~~~[m[K
+[8.979s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/include/projection/Particle.h:17:19:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KPosition* Particle::m_position[m[K’ [[01;35m[K-Wreorder[m[K]
+[8.980s]    17 |         Position* [01;35m[Km_position[m[K;
+[8.980s]       |                   [01;35m[K^~~~~~~~~~[m[K
+[8.980s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/Particle.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[8.980s]     3 | [01;35m[KParticle[m[K::Particle(const int _id, const float _x, const float _y)
+[8.980s]       | [01;35m[K^~~~~~~~[m[K
+[8.980s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:[m[K In destructor ‘[01m[KProjectionHandler::~ProjectionHandler()[m[K’:
+[8.980s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:10:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KParticle[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+[8.981s]    10 |         [01;35m[Kdelete m_curParticle[m[K;
+[8.981s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.984s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:11:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KITransform<Cone, float>[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+[8.984s]    11 |         [01;35m[Kdelete &m_getX[m[K;
+[8.984s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[8.984s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:12:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KITransform<Cone, float>[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+[8.984s]    12 |         [01;35m[Kdelete &m_getY[m[K;
+[8.984s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[8.985s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:[m[K In member function ‘[01m[Kvoid ProjectionHandler::doProjection(Cone*)[m[K’:
+[8.985s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:27:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KParticle[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+[8.985s]    27 |         [01;35m[Kdelete m_curParticle[m[K;
+[8.985s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.985s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:30:46:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KCone[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+[8.985s]    30 |         if (!Validation::validate(*_cone)) { [01;35m[Kdelete     _cone[m[K; return; }
+[8.986s]       |                                              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[8.986s] [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:42:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KCone[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+[8.986s]    42 |         [01;35m[Kdelete _cone[m[K;
+[8.986s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[159.537s] [100%] [32m[1mLinking CXX executable cone_detection_camera[0m
+[162.196s] [100%] Built target cone_detection_camera

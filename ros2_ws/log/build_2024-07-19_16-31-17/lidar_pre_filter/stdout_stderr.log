@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/filter_vehicle.dir/src/filter_vehicle.cpp.o[0m
+[100%] [32m[1mLinking CXX executable filter_vehicle[0m
+[100%] Built target filter_vehicle
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch/rviz01.launch.py
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch/filter_vehicle01.launch.py
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/config
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/config/rviz01.rviz
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/lib/lidar_pre_filter/filter_vehicle
+-- Set runtime path of "/root/ros2_ws/install/lidar_pre_filter/lib/lidar_pre_filter/filter_vehicle" to ""
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/package_run_dependencies/lidar_pre_filter
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/parent_prefix_path/lidar_pre_filter
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/path.sh
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/path.dsv
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.bash
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.sh
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.zsh
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.dsv
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.dsv
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/packages/lidar_pre_filter
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/cmake/lidar_pre_filterConfig.cmake
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/cmake/lidar_pre_filterConfig-version.cmake
+-- Installing: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.xml

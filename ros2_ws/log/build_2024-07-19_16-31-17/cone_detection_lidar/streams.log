@@ -1,0 +1,35 @@
+[0.116s] Invoking command in '/root/ros2_ws/build/cone_detection_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/cone_detection_lidar -- -j8 -l8
+[0.703s] [35m[1mConsolidate compiler generated dependencies of target grid_trajectory[0m
+[0.703s] [ 25%] [32mBuilding CXX object CMakeFiles/detection_simple.dir/src/detection_simple.cpp.o[0m
+[0.703s] [ 75%] Built target grid_trajectory
+[34.798s] [100%] [32m[1mLinking CXX executable detection_simple[0m
+[36.016s] [100%] Built target detection_simple
+[36.034s] Invoked command in '/root/ros2_ws/build/cone_detection_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/cone_detection_lidar -- -j8 -l8
+[36.109s] Invoking command in '/root/ros2_ws/build/cone_detection_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/cone_detection_lidar
+[36.121s] -- Install configuration: ""
+[36.121s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch
+[36.123s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/grid_detection.launch.py
+[36.124s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/rviz01.launch.py
+[36.125s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/detection_simple.launch.py
+[36.127s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/config
+[36.128s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/config/rviz01.rviz
+[36.129s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/detection_simple
+[36.131s] -- Set runtime path of "/root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/detection_simple" to ""
+[36.131s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/grid_trajectory
+[36.133s] -- Set runtime path of "/root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/grid_trajectory" to ""
+[36.134s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/package_run_dependencies/cone_detection_lidar
+[36.135s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/parent_prefix_path/cone_detection_lidar
+[36.136s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/ament_prefix_path.sh
+[36.136s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/ament_prefix_path.dsv
+[36.137s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/path.sh
+[36.138s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/path.dsv
+[36.138s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.bash
+[36.139s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.sh
+[36.140s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.zsh
+[36.141s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.dsv
+[36.141s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/package.dsv
+[36.142s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/packages/cone_detection_lidar
+[36.142s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/cmake/cone_detection_lidarConfig.cmake
+[36.143s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/cmake/cone_detection_lidarConfig-version.cmake
+[36.144s] -- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/package.xml
+[36.147s] Invoked command in '/root/ros2_ws/build/cone_detection_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/cone_detection_lidar

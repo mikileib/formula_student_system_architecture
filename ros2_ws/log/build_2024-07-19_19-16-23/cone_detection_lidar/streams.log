@@ -1,0 +1,33 @@
+[0.132s] Invoking command in '/root/ros2_ws/build/cone_detection_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/cone_detection_lidar -- -j8 -l8
+[0.784s] [35m[1mConsolidate compiler generated dependencies of target grid_trajectory[0m
+[0.785s] [35m[1mConsolidate compiler generated dependencies of target detection_simple[0m
+[0.785s] [ 25%] [32m[1mLinking CXX executable grid_trajectory[0m
+[0.785s] [ 50%] [32m[1mLinking CXX executable detection_simple[0m
+[3.867s] [ 75%] Built target grid_trajectory
+[5.158s] [100%] Built target detection_simple
+[5.684s] Invoked command in '/root/ros2_ws/build/cone_detection_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/cone_detection_lidar -- -j8 -l8
+[5.950s] Invoking command in '/root/ros2_ws/build/cone_detection_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/cone_detection_lidar
+[7.780s] -- Install configuration: ""
+[7.780s] -- Execute custom install script
+[7.780s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/detection_simple.launch.py
+[7.780s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/grid_detection.launch.py
+[7.780s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/rviz01.launch.py
+[7.780s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/config/rviz01.rviz
+[7.780s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/detection_simple
+[7.781s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/grid_trajectory
+[7.781s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/package_run_dependencies/cone_detection_lidar
+[7.781s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/parent_prefix_path/cone_detection_lidar
+[7.781s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/ament_prefix_path.sh
+[7.781s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/ament_prefix_path.dsv
+[7.781s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/path.sh
+[7.782s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/path.dsv
+[7.782s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.bash
+[7.782s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.sh
+[7.782s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.zsh
+[7.782s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.dsv
+[7.782s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/package.dsv
+[7.782s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/packages/cone_detection_lidar
+[7.782s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/cmake/cone_detection_lidarConfig.cmake
+[7.783s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/cmake/cone_detection_lidarConfig-version.cmake
+[7.783s] -- Symlinking: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/package.xml
+[7.868s] Invoked command in '/root/ros2_ws/build/cone_detection_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/cone_detection_lidar

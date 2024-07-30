@@ -1,0 +1,27 @@
+running develop
+Removing /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection.egg-link (link to .)
+running egg_info
+writing ../../../../build/detection/detection.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/detection/detection.egg-info/dependency_links.txt
+writing entry points to ../../../../build/detection/detection.egg-info/entry_points.txt
+writing requirements to ../../../../build/detection/detection.egg-info/requires.txt
+writing top-level names to ../../../../build/detection/detection.egg-info/top_level.txt
+reading manifest file '../../../../build/detection/detection.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/detection/detection.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+copying /root/ros2_ws/build/detection/build/lib/detection/__init__.py -> /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection
+copying /root/ros2_ws/build/detection/build/lib/detection/cone_detection_camera.py -> /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection
+byte-compiling /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection/cone_detection_camera.py to cone_detection_camera.cpython-310.pyc
+running install_data
+copying resource/detection -> /root/ros2_ws/install/detection/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/detection/share/detection
+copying detection/resources/class.names -> /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection/resources/
+running install_egg_info
+Copying ../../../../build/detection/detection.egg-info to /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cone_detection_camera script to /root/ros2_ws/install/detection/lib/detection
+writing list of installed files to '/root/ros2_ws/build/detection/install.log'

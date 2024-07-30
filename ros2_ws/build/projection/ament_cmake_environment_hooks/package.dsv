@@ -1,0 +1,4 @@
+source;share/projection/local_setup.bash
+source;share/projection/local_setup.dsv
+source;share/projection/local_setup.sh
+source;share/projection/local_setup.zsh

@@ -1,0 +1,20 @@
+[100%] Built target prcp_object_fusion
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/launch/run_all.launch.py
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/lib/prcp_object_fusion/prcp_object_fusion
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/package_run_dependencies/prcp_object_fusion
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/parent_prefix_path/prcp_object_fusion
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/path.sh
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/environment/path.dsv
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.bash
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.sh
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.zsh
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/local_setup.dsv
+-- Symlinking: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/package.dsv
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/ament_index/resource_index/packages/prcp_object_fusion
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/cmake/prcp_object_fusionConfig.cmake
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/cmake/prcp_object_fusionConfig-version.cmake
+-- Up-to-date symlink: /root/ros2_ws/install/prcp_object_fusion/share/prcp_object_fusion/package.xml

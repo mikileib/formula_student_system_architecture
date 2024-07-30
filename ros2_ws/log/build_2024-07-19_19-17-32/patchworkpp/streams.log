@@ -1,0 +1,65 @@
+[0.538s] Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/patchwork-plusplus-ros -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/patchworkpp
+[2.004s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.004s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.005s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.005s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.005s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.005s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.005s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.005s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.006s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.006s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.006s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.083s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[3.189s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.193s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.347s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.423s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.193s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.209s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.573s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.591s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.610s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.940s] -- Found Qhull version 8.0.2
+[6.288s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.092s] -- Configuring done
+[8.526s] -- Generating done
+[8.544s] -- Build files have been written to: /root/ros2_ws/build/patchworkpp
+[8.624s] Invoked command in '/root/ros2_ws/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/patchwork-plusplus-ros -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/patchworkpp
+[8.625s] Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/patchworkpp -- -j8 -l8
+[8.747s] [35m[1mConsolidate compiler generated dependencies of target demo[0m
+[8.753s] [35m[1mConsolidate compiler generated dependencies of target patchworkpp[0m
+[8.839s] [ 50%] Built target demo
+[8.843s] [100%] Built target patchworkpp
+[8.862s] Invoked command in '/root/ros2_ws/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/patchworkpp -- -j8 -l8
+[8.945s] Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/patchworkpp
+[8.958s] -- Install configuration: "Release"
+[8.959s] -- Execute custom install script
+[8.960s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/lib/libpatchworkpp.so
+[8.960s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/lib/patchworkpp/demo
+[8.961s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/include/patchworkpp/patchworkpp.hpp
+[8.962s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/include/patchworkpp/utils.hpp
+[8.963s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch/demo.launch.py
+[8.964s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch/rviz1.launch.py
+[8.965s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/config/params_ros2.yaml
+[8.966s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/demo.rviz
+[8.966s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/patchworkpp_viz.rviz
+[8.967s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/rviz1.rviz
+[8.969s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/package_run_dependencies/patchworkpp
+[8.969s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/parent_prefix_path/patchworkpp
+[8.970s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.sh
+[8.970s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.dsv
+[8.970s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/path.sh
+[8.971s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/path.dsv
+[8.972s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.bash
+[8.973s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.sh
+[8.974s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.zsh
+[8.975s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.dsv
+[8.975s] -- Symlinking: /root/ros2_ws/install/patchworkpp/share/patchworkpp/package.dsv
+[8.985s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/packages/patchworkpp
+[8.986s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.986s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.988s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig.cmake
+[8.988s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig-version.cmake
+[8.988s] -- Up-to-date symlink: /root/ros2_ws/install/patchworkpp/share/patchworkpp/package.xml
+[8.992s] Invoked command in '/root/ros2_ws/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/patchworkpp

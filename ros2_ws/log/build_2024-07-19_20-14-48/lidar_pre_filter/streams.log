@@ -1,0 +1,26 @@
+[0.578s] Invoking command in '/root/ros2_ws/build/lidar_pre_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_pre_filter -- -j8 -l8
+[0.791s] [100%] Built target filter_vehicle
+[0.886s] Invoked command in '/root/ros2_ws/build/lidar_pre_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_pre_filter -- -j8 -l8
+[1.019s] Invoking command in '/root/ros2_ws/build/lidar_pre_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_pre_filter
+[1.058s] -- Install configuration: ""
+[1.060s] -- Execute custom install script
+[1.061s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch/filter_vehicle01.launch.py
+[1.061s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/launch/rviz01.launch.py
+[1.062s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/config/rviz01.rviz
+[1.062s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/lib/lidar_pre_filter/filter_vehicle
+[1.062s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/package_run_dependencies/lidar_pre_filter
+[1.063s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/parent_prefix_path/lidar_pre_filter
+[1.064s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/ament_prefix_path.sh
+[1.065s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/ament_prefix_path.dsv
+[1.066s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/path.sh
+[1.066s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/environment/path.dsv
+[1.066s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.bash
+[1.066s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.sh
+[1.067s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.zsh
+[1.067s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/local_setup.dsv
+[1.067s] -- Symlinking: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.dsv
+[1.071s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/ament_index/resource_index/packages/lidar_pre_filter
+[1.072s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/cmake/lidar_pre_filterConfig.cmake
+[1.072s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/cmake/lidar_pre_filterConfig-version.cmake
+[1.074s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_pre_filter/share/lidar_pre_filter/package.xml
+[1.498s] Invoked command in '/root/ros2_ws/build/lidar_pre_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_pre_filter

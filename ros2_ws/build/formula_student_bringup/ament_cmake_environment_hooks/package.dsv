@@ -1,0 +1,4 @@
+source;share/formula_student_bringup/local_setup.bash
+source;share/formula_student_bringup/local_setup.dsv
+source;share/formula_student_bringup/local_setup.sh
+source;share/formula_student_bringup/local_setup.zsh

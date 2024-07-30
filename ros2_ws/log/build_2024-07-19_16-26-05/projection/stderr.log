@@ -1,0 +1,31 @@
+In file included from [01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/Particle.cpp:1[m[K:
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/include/projection/Particle.h:[m[K In constructor ‘[01m[KParticle::Particle(int, float, float)[m[K’:
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/include/projection/Particle.h:20:19:[m[K [01;35m[Kwarning: [m[K‘[01m[KParticle::m_id[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   20 |         const int [01;35m[Km_id[m[K;
+      |                   [01;35m[K^~~~[m[K
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/include/projection/Particle.h:17:19:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KPosition* Particle::m_position[m[K’ [[01;35m[K-Wreorder[m[K]
+   17 |         Position* [01;35m[Km_position[m[K;
+      |                   [01;35m[K^~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/Particle.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    3 | [01;35m[KParticle[m[K::Particle(const int _id, const float _x, const float _y)
+      | [01;35m[K^~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:[m[K In destructor ‘[01m[KProjectionHandler::~ProjectionHandler()[m[K’:
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:10:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KParticle[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+   10 |         [01;35m[Kdelete m_curParticle[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:11:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KITransform<Cone, float>[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+   11 |         [01;35m[Kdelete &m_getX[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:12:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KITransform<Cone, float>[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+   12 |         [01;35m[Kdelete &m_getY[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:[m[K In member function ‘[01m[Kvoid ProjectionHandler::doProjection(Cone*)[m[K’:
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:27:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KParticle[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+   27 |         [01;35m[Kdelete m_curParticle[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:30:46:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KCone[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+   30 |         if (!Validation::validate(*_cone)) { [01;35m[Kdelete     _cone[m[K; return; }
+      |                                              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/formula_student_packages/cone_detection_camera/projection/src/ProjectionHandler.cpp:42:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KCone[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+   42 |         [01;35m[Kdelete _cone[m[K;
+      |         [01;35m[K^~~~~~~~~~~~[m[K

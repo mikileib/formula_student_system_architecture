@@ -1,0 +1,407 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (bboxes_ex_msgs) JobQueued: {'identifier': 'bboxes_ex_msgs', 'dependencies': OrderedDict()}
+[0.000489] (cone_detection_lidar) JobQueued: {'identifier': 'cone_detection_lidar', 'dependencies': OrderedDict()}
+[0.000521] (csv_to_pointcloud2_converter) JobQueued: {'identifier': 'csv_to_pointcloud2_converter', 'dependencies': OrderedDict()}
+[0.000542] (detection) JobQueued: {'identifier': 'detection', 'dependencies': OrderedDict()}
+[0.000561] (formula_student_bringup) JobQueued: {'identifier': 'formula_student_bringup', 'dependencies': OrderedDict()}
+[0.000579] (lidar_cluster) JobQueued: {'identifier': 'lidar_cluster', 'dependencies': OrderedDict()}
+[0.000595] (lidar_pre_filter) JobQueued: {'identifier': 'lidar_pre_filter', 'dependencies': OrderedDict()}
+[0.000611] (patchworkpp) JobQueued: {'identifier': 'patchworkpp', 'dependencies': OrderedDict()}
+[0.000628] (planner) JobQueued: {'identifier': 'planner', 'dependencies': OrderedDict()}
+[0.000644] (pointcloud_publisher) JobQueued: {'identifier': 'pointcloud_publisher', 'dependencies': OrderedDict()}
+[0.000660] (prcp_object_fusion) JobQueued: {'identifier': 'prcp_object_fusion', 'dependencies': OrderedDict()}
+[0.000677] (projection) JobQueued: {'identifier': 'projection', 'dependencies': OrderedDict()}
+[0.000693] (racetrack_simulator) JobQueued: {'identifier': 'racetrack_simulator', 'dependencies': OrderedDict()}
+[0.000715] (yolov5_ros) JobQueued: {'identifier': 'yolov5_ros', 'dependencies': OrderedDict([('bboxes_ex_msgs', '/root/ros2_ws/install/bboxes_ex_msgs')])}
+[0.000741] (bboxes_ex_msgs) JobStarted: {'identifier': 'bboxes_ex_msgs'}
+[0.064048] (cone_detection_lidar) JobStarted: {'identifier': 'cone_detection_lidar'}
+[0.075200] (csv_to_pointcloud2_converter) JobStarted: {'identifier': 'csv_to_pointcloud2_converter'}
+[0.084870] (detection) JobStarted: {'identifier': 'detection'}
+[0.095743] (-) TimerEvent: {}
+[0.113169] (formula_student_bringup) JobStarted: {'identifier': 'formula_student_bringup'}
+[0.123564] (lidar_cluster) JobStarted: {'identifier': 'lidar_cluster'}
+[0.133728] (lidar_pre_filter) JobStarted: {'identifier': 'lidar_pre_filter'}
+[0.144985] (patchworkpp) JobStarted: {'identifier': 'patchworkpp'}
+[0.163400] (bboxes_ex_msgs) JobProgress: {'identifier': 'bboxes_ex_msgs', 'progress': 'cmake'}
+[0.166212] (bboxes_ex_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/bbox_ex_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/bboxes_ex_msgs'], 'cwd': '/root/ros2_ws/build/bboxes_ex_msgs', 'env': OrderedDict([('HOSTNAME', '046548c16cfc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/bboxes_ex_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.184606] (cone_detection_lidar) JobProgress: {'identifier': 'cone_detection_lidar', 'progress': 'cmake'}
+[0.196793] (-) TimerEvent: {}
+[0.210116] (cone_detection_lidar) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/formula_student_packages/cone_detection_lidar', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/cone_detection_lidar'], 'cwd': '/root/ros2_ws/build/cone_detection_lidar', 'env': OrderedDict([('HOSTNAME', '046548c16cfc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/cone_detection_lidar'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.214252] (csv_to_pointcloud2_converter) JobProgress: {'identifier': 'csv_to_pointcloud2_converter', 'progress': 'cmake'}
+[0.222956] (csv_to_pointcloud2_converter) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/csv_to_pointcloud2_converter', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/csv_to_pointcloud2_converter'], 'cwd': '/root/ros2_ws/build/csv_to_pointcloud2_converter', 'env': OrderedDict([('HOSTNAME', '046548c16cfc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/csv_to_pointcloud2_converter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.297663] (-) TimerEvent: {}
+[0.398473] (-) TimerEvent: {}
+[0.499612] (-) TimerEvent: {}
+[0.600802] (-) TimerEvent: {}
+[0.701589] (-) TimerEvent: {}
+[0.802439] (-) TimerEvent: {}
+[0.903581] (-) TimerEvent: {}
+[0.998564] (formula_student_bringup) JobProgress: {'identifier': 'formula_student_bringup', 'progress': 'cmake'}
+[1.003838] (formula_student_bringup) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/formula_student_packages/formula_student_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/formula_student_bringup'], 'cwd': '/root/ros2_ws/build/formula_student_bringup', 'env': OrderedDict([('HOSTNAME', '046548c16cfc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/formula_student_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.008861] (-) TimerEvent: {}
+[1.009337] (lidar_cluster) JobProgress: {'identifier': 'lidar_cluster', 'progress': 'cmake'}
+[1.021217] (lidar_cluster) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/lidar_cluster_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/lidar_cluster'], 'cwd': '/root/ros2_ws/build/lidar_cluster', 'env': OrderedDict([('HOSTNAME', '046548c16cfc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/lidar_cluster'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.025645] (lidar_pre_filter) JobProgress: {'identifier': 'lidar_pre_filter', 'progress': 'cmake'}
+[1.038501] (lidar_pre_filter) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/formula_student_packages/lidar_pre_filter', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/lidar_pre_filter'], 'cwd': '/root/ros2_ws/build/lidar_pre_filter', 'env': OrderedDict([('HOSTNAME', '046548c16cfc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/lidar_pre_filter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.047031] (cone_detection_lidar) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.047517] (cone_detection_lidar) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.047724] (cone_detection_lidar) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.050174] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.050690] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.050842] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.053117] (formula_student_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.077996] (lidar_cluster) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.079269] (lidar_pre_filter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.081660] (patchworkpp) JobProgress: {'identifier': 'patchworkpp', 'progress': 'cmake'}
+[1.111044] (-) TimerEvent: {}
+[1.118986] (patchworkpp) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/patchwork-plusplus-ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/patchworkpp'], 'cwd': '/root/ros2_ws/build/patchworkpp', 'env': OrderedDict([('HOSTNAME', '046548c16cfc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/patchworkpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.146473] (cone_detection_lidar) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.147092] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.165843] (cone_detection_lidar) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.171372] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.199628] (cone_detection_lidar) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.200427] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.211508] (-) TimerEvent: {}
+[1.267797] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.270430] (cone_detection_lidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.302850] (bboxes_ex_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.311662] (-) TimerEvent: {}
+[1.342173] (cone_detection_lidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.342682] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.376442] (formula_student_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.397510] (formula_student_bringup) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.412641] (-) TimerEvent: {}
+[1.446046] (lidar_cluster) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.466644] (lidar_cluster) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.482782] (formula_student_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.488151] (lidar_pre_filter) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.489552] (formula_student_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.505507] (formula_student_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.510731] (lidar_pre_filter) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.513583] (-) TimerEvent: {}
+[1.546441] (formula_student_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.547045] (lidar_cluster) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.553195] (lidar_cluster) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.568551] (lidar_cluster) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.584736] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.585041] (cone_detection_lidar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.588137] (formula_student_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.589624] (cone_detection_lidar) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.590043] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.590752] (lidar_pre_filter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.599142] (lidar_cluster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.599656] (lidar_pre_filter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.614500] (lidar_pre_filter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.614732] (-) TimerEvent: {}
+[1.641083] (lidar_cluster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.652742] (lidar_pre_filter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.705850] (lidar_pre_filter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.715609] (-) TimerEvent: {}
+[1.816106] (lidar_cluster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.816433] (-) TimerEvent: {}
+[1.819468] (lidar_cluster) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.843002] (bboxes_ex_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.866581] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.883595] (lidar_pre_filter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.889554] (lidar_pre_filter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.916553] (-) TimerEvent: {}
+[2.003730] (formula_student_bringup) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.7 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[2.014187] (csv_to_pointcloud2_converter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.015747] (cone_detection_lidar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.017710] (-) TimerEvent: {}
+[2.155616] (-) TimerEvent: {}
+[2.256779] (-) TimerEvent: {}
+[2.274082] (lidar_cluster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.358949] (-) TimerEvent: {}
+[2.379775] (lidar_pre_filter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.459558] (-) TimerEvent: {}
+[2.528592] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.552049] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.553336] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.558588] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.560667] (-) TimerEvent: {}
+[2.567155] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.654342] (detection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros2_ws/build/detection/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/root/ros2_ws/build/detection', 'env': {'HOSTNAME': '046548c16cfc', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/root/ros2_ws/build/detection', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.660900] (-) TimerEvent: {}
+[2.662475] (formula_student_bringup) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.670163] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.678387] (cone_detection_lidar) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.765541] (-) TimerEvent: {}
+[2.802863] (lidar_cluster) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.865711] (-) TimerEvent: {}
+[2.885660] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.907926] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.908242] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.913527] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.916012] (lidar_pre_filter) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.933509] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.966526] (-) TimerEvent: {}
+[3.035806] (formula_student_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.040146] (formula_student_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.067631] (-) TimerEvent: {}
+[3.084282] (cone_detection_lidar) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.091261] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.171623] (-) TimerEvent: {}
+[3.192957] (lidar_cluster) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[3.272705] (-) TimerEvent: {}
+[3.313721] (lidar_pre_filter) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[3.347523] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.356236] (cone_detection_lidar) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[3.375698] (csv_to_pointcloud2_converter) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.376026] (-) TimerEvent: {}
+[3.380484] (csv_to_pointcloud2_converter) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.380814] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/ros2_ws/src/csv_to_pointcloud2_converter/include>\n'}
+[3.380990] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.384663] (formula_student_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.385694] (csv_to_pointcloud2_converter) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.385986] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.392606] (csv_to_pointcloud2_converter) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.394943] (csv_to_pointcloud2_converter) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.395857] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.399830] (csv_to_pointcloud2_converter) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.407186] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.479274] (-) TimerEvent: {}
+[3.499596] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Generating done\n'}
+[3.508009] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/csv_to_pointcloud2_converter\n'}
+[3.533131] (patchworkpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.533625] (patchworkpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.533969] (patchworkpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.534878] (patchworkpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.534990] (patchworkpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.535131] (patchworkpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.535290] (patchworkpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.535569] (patchworkpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.535711] (patchworkpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.535832] (patchworkpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.535949] (patchworkpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.536087] (patchworkpp) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[3.536237] (csv_to_pointcloud2_converter) CommandEnded: {'returncode': 0}
+[3.540829] (csv_to_pointcloud2_converter) JobProgress: {'identifier': 'csv_to_pointcloud2_converter', 'progress': 'build'}
+[3.540907] (csv_to_pointcloud2_converter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/csv_to_pointcloud2_converter', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/csv_to_pointcloud2_converter', 'env': OrderedDict([('HOSTNAME', '046548c16cfc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/csv_to_pointcloud2_converter'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.541827] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.569003] (lidar_cluster) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.579577] (-) TimerEvent: {}
+[3.593120] (lidar_cluster) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.7 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[3.615004] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[3.680867] (-) TimerEvent: {}
+[3.714406] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.729968] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.752788] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.767811] (cone_detection_lidar) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.781398] (-) TimerEvent: {}
+[3.791565] (cone_detection_lidar) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.7 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[3.798463] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.854186] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.882485] (-) TimerEvent: {}
+[3.911615] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.983564] (-) TimerEvent: {}
+[4.022249] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.023070] (lidar_cluster) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.073252] (formula_student_bringup) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[4.084566] (-) TimerEvent: {}
+[4.095948] (formula_student_bringup) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.100780] (formula_student_bringup) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.110579] (lidar_pre_filter) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.114296] (lidar_pre_filter) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.124963] (formula_student_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.186663] (-) TimerEvent: {}
+[4.239846] (cone_detection_lidar) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.248402] (patchworkpp) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.251867] (patchworkpp) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.287498] (-) TimerEvent: {}
+[4.389597] (-) TimerEvent: {}
+[4.415965] (lidar_cluster) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[4.427218] (formula_student_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.427961] (lidar_cluster) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.429007] (formula_student_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.429624] (formula_student_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.430800] (formula_student_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.431725] (lidar_cluster) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.436007] (formula_student_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.456845] (lidar_cluster) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[4.467670] (formula_student_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[4.483674] (formula_student_bringup) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/formula_student_bringup\n'}
+[4.490469] (-) TimerEvent: {}
+[4.494795] (detection) StdoutLine: {'line': b'running develop\n'}
+[4.495391] (detection) StdoutLine: {'line': b'running egg_info\n'}
+[4.496082] (detection) StdoutLine: {'line': b'writing detection.egg-info/PKG-INFO\n'}
+[4.496267] (detection) StdoutLine: {'line': b'writing dependency_links to detection.egg-info/dependency_links.txt\n'}
+[4.496434] (detection) StdoutLine: {'line': b'writing entry points to detection.egg-info/entry_points.txt\n'}
+[4.496630] (detection) StdoutLine: {'line': b'writing requirements to detection.egg-info/requires.txt\n'}
+[4.496799] (detection) StdoutLine: {'line': b'writing top-level names to detection.egg-info/top_level.txt\n'}
+[4.496918] (detection) StdoutLine: {'line': b"reading manifest file 'detection.egg-info/SOURCES.txt'\n"}
+[4.497021] (detection) StdoutLine: {'line': b"writing manifest file 'detection.egg-info/SOURCES.txt'\n"}
+[4.497157] (detection) StdoutLine: {'line': b'running build_ext\n'}
+[4.497265] (detection) StdoutLine: {'line': b'Creating /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection.egg-link (link to .)\n'}
+[4.497415] (detection) StdoutLine: {'line': b'Installing cone_detection_camera script to /root/ros2_ws/install/detection/lib/detection\n'}
+[4.497536] (detection) StdoutLine: {'line': b'\n'}
+[4.497644] (detection) StdoutLine: {'line': b'Installed /root/ros2_ws/build/detection\n'}
+[4.497782] (detection) StdoutLine: {'line': b'running symlink_data\n'}
+[4.497924] (detection) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/detection/resource/detection -> /root/ros2_ws/install/detection/share/ament_index/resource_index/packages\n'}
+[4.498059] (detection) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/detection/package.xml -> /root/ros2_ws/install/detection/share/detection\n'}
+[4.498186] (detection) StdoutLine: {'line': b'creating /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection\n'}
+[4.498298] (detection) StdoutLine: {'line': b'creating /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection/resources\n'}
+[4.500199] (detection) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.500569] (detection) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.500734] (detection) StderrLine: {'line': b"error: [Errno 2] No such file or directory: '/root/ros2_ws/install/detection/lib/python3.10/site-packages/detection/resources/class.names'\n"}
+[4.500880] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target csv_to_pointcloud2_node\x1b[0m\n'}
+[4.501046] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable csv_to_pointcloud2_node\x1b[0m\n'}
+[4.501187] (formula_student_bringup) CommandEnded: {'returncode': 0}
+[4.509905] (formula_student_bringup) JobProgress: {'identifier': 'formula_student_bringup', 'progress': 'build'}
+[4.510015] (formula_student_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/formula_student_bringup', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/formula_student_bringup', 'env': OrderedDict([('HOSTNAME', '046548c16cfc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/formula_student_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.510890] (detection) CommandEnded: {'returncode': 1}
+[4.511381] (detection) JobEnded: {'identifier': 'detection', 'rc': 1}
+[4.591667] (-) TimerEvent: {}
+[4.641198] (cone_detection_lidar) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[4.653820] (cone_detection_lidar) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.657018] (cone_detection_lidar) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.661128] (csv_to_pointcloud2_converter) StdoutLine: {'line': b'[100%] Built target csv_to_pointcloud2_node\n'}
+[4.680304] (cone_detection_lidar) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[4.686227] (csv_to_pointcloud2_converter) JobEnded: {'identifier': 'csv_to_pointcloud2_converter', 'rc': 'SIGINT'}
+[4.688017] (formula_student_bringup) JobEnded: {'identifier': 'formula_student_bringup', 'rc': 'SIGINT'}
+[4.693956] (-) TimerEvent: {}
+[4.795563] (-) TimerEvent: {}
+[4.877148] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.896765] (-) TimerEvent: {}
+[4.997634] (-) TimerEvent: {}
+[5.098710] (-) TimerEvent: {}
+[5.116550] (lidar_pre_filter) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.119027] (lidar_cluster) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.199677] (-) TimerEvent: {}
+[5.200455] (lidar_cluster) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[5.201471] (lidar_pre_filter) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[5.202809] (patchworkpp) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.269175] (patchworkpp) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[5.281758] (cone_detection_lidar) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.300649] (-) TimerEvent: {}
+[5.342601] (cone_detection_lidar) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[5.401776] (-) TimerEvent: {}
+[5.502819] (-) TimerEvent: {}
+[5.603603] (-) TimerEvent: {}
+[5.649185] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.704565] (-) TimerEvent: {}
+[5.805556] (-) TimerEvent: {}
+[5.906619] (-) TimerEvent: {}
+[5.944127] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.987440] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.994030] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.007706] (-) TimerEvent: {}
+[6.056484] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[6.056773] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.056872] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.057115] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.097821] (cone_detection_lidar) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.099023] (lidar_cluster) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.100244] (lidar_pre_filter) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.100675] (patchworkpp) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.105453] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.108575] (-) TimerEvent: {}
+[6.113163] (lidar_pre_filter) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.114472] (patchworkpp) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.115245] (lidar_cluster) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.115686] (cone_detection_lidar) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.209713] (-) TimerEvent: {}
+[6.310927] (-) TimerEvent: {}
+[6.411542] (-) TimerEvent: {}
+[6.434241] (lidar_cluster) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[6.438467] (patchworkpp) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[6.451166] (lidar_cluster) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.463975] (patchworkpp) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.470746] (lidar_cluster) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.482746] (patchworkpp) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.503041] (lidar_pre_filter) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[6.503951] (cone_detection_lidar) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[6.512462] (-) TimerEvent: {}
+[6.518124] (cone_detection_lidar) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.518592] (lidar_pre_filter) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.535021] (lidar_pre_filter) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.535621] (cone_detection_lidar) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.613579] (-) TimerEvent: {}
+[6.714621] (-) TimerEvent: {}
+[6.754621] (lidar_cluster) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[6.758106] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include\n'}
+[6.764901] (patchworkpp) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[6.813859] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.815666] (-) TimerEvent: {}
+[6.824780] (cone_detection_lidar) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[6.827028] (lidar_pre_filter) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[6.906673] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[6.913706] (bboxes_ex_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/bboxes_ex_msgs\n'}
+[6.916730] (-) TimerEvent: {}
+[6.925632] (bboxes_ex_msgs) JobEnded: {'identifier': 'bboxes_ex_msgs', 'rc': 'SIGINT'}
+[7.017777] (-) TimerEvent: {}
+[7.054562] (lidar_cluster) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.069966] (patchworkpp) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.103766] (cone_detection_lidar) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.114612] (lidar_pre_filter) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.118729] (-) TimerEvent: {}
+[7.219686] (-) TimerEvent: {}
+[7.320635] (-) TimerEvent: {}
+[7.422658] (-) TimerEvent: {}
+[7.523748] (-) TimerEvent: {}
+[7.589269] (lidar_pre_filter) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.624578] (-) TimerEvent: {}
+[7.671677] (cone_detection_lidar) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.725798] (-) TimerEvent: {}
+[7.747684] (lidar_pre_filter) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.750397] (lidar_pre_filter) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ros2_ws/src/formula_student_packages/lidar_pre_filter/include\n'}
+[7.750748] (lidar_pre_filter) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.751461] (lidar_pre_filter) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.752712] (lidar_pre_filter) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.753590] (lidar_pre_filter) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.755237] (lidar_pre_filter) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.755512] (lidar_pre_filter) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.756248] (lidar_pre_filter) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.762230] (lidar_pre_filter) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.766083] (patchworkpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.826674] (-) TimerEvent: {}
+[7.831007] (cone_detection_lidar) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.836694] (cone_detection_lidar) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ros2_ws/src/formula_student_packages/cone_detection_lidar/include\n'}
+[7.837088] (cone_detection_lidar) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.837457] (cone_detection_lidar) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.838424] (cone_detection_lidar) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.839139] (cone_detection_lidar) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.841546] (cone_detection_lidar) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.841790] (cone_detection_lidar) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.842978] (cone_detection_lidar) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.847288] (cone_detection_lidar) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.927647] (-) TimerEvent: {}
+[7.973176] (lidar_pre_filter) StdoutLine: {'line': b'-- Generating done\n'}
+[7.980139] (lidar_pre_filter) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/lidar_pre_filter\n'}
+[8.005035] (lidar_pre_filter) JobEnded: {'identifier': 'lidar_pre_filter', 'rc': 'SIGINT'}
+[8.019633] (cone_detection_lidar) StdoutLine: {'line': b'-- Generating done\n'}
+[8.027887] (cone_detection_lidar) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/cone_detection_lidar\n'}
+[8.028207] (-) TimerEvent: {}
+[8.057518] (cone_detection_lidar) JobEnded: {'identifier': 'cone_detection_lidar', 'rc': 'SIGINT'}
+[8.128185] (lidar_cluster) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.128535] (-) TimerEvent: {}
+[8.229668] (-) TimerEvent: {}
+[8.271537] (lidar_cluster) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.277525] (lidar_cluster) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ros2_ws/src/lidar_cluster_ros2/include\n'}
+[8.277722] (lidar_cluster) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.279050] (lidar_cluster) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.281346] (lidar_cluster) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.282702] (lidar_cluster) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.289150] (lidar_cluster) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.289453] (lidar_cluster) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.290607] (lidar_cluster) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.294231] (lidar_cluster) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.330567] (-) TimerEvent: {}
+[8.431712] (-) TimerEvent: {}
+[8.532632] (-) TimerEvent: {}
+[8.590540] (lidar_cluster) StdoutLine: {'line': b'-- Generating done\n'}
+[8.597562] (lidar_cluster) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/lidar_cluster\n'}
+[8.627549] (lidar_cluster) JobEnded: {'identifier': 'lidar_cluster', 'rc': 'SIGINT'}
+[8.633577] (-) TimerEvent: {}
+[8.734798] (-) TimerEvent: {}
+[8.812884] (patchworkpp) StdoutLine: {'line': b'-- Generating done\n'}
+[8.817397] (patchworkpp) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/patchworkpp\n'}
+[8.835705] (-) TimerEvent: {}
+[8.840861] (patchworkpp) JobEnded: {'identifier': 'patchworkpp', 'rc': 'SIGINT'}
+[8.854103] (planner) JobSkipped: {'identifier': 'planner'}
+[8.854438] (pointcloud_publisher) JobSkipped: {'identifier': 'pointcloud_publisher'}
+[8.854524] (prcp_object_fusion) JobSkipped: {'identifier': 'prcp_object_fusion'}
+[8.854618] (projection) JobSkipped: {'identifier': 'projection'}
+[8.855367] (racetrack_simulator) JobSkipped: {'identifier': 'racetrack_simulator'}
+[8.855430] (yolov5_ros) JobSkipped: {'identifier': 'yolov5_ros'}
+[8.855458] (-) EventReactorShutdown: {}

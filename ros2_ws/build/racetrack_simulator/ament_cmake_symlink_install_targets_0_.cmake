@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_ws/build/racetrack_simulator/lidar_cone_sim" "/root/ros2_ws/build/racetrack_simulator/accuracy_meter" "TARGETS" "lidar_cone_sim" "accuracy_meter" "DESTINATION" "lib/racetrack_simulator")

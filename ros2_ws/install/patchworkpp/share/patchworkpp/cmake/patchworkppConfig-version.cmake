@@ -1,0 +1,1 @@
+/root/ros2_ws/build/patchworkpp/ament_cmake_core/patchworkppConfig-version.cmake

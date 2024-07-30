@@ -1,0 +1,21 @@
+[4.741s] Invoking command in '/root/ros2_ws/build/pointcloud_publisher': PYTHONPATH=/root/ros2_ws/build/pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/pointcloud_publisher/build --no-deps symlink_data --force
+[6.270s] running develop
+[6.284s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.284s]   warnings.warn(
+[6.954s] running egg_info
+[6.955s] writing pointcloud_publisher.egg-info/PKG-INFO
+[6.975s] writing dependency_links to pointcloud_publisher.egg-info/dependency_links.txt
+[6.975s] writing entry points to pointcloud_publisher.egg-info/entry_points.txt
+[6.978s] writing requirements to pointcloud_publisher.egg-info/requires.txt
+[6.985s] writing top-level names to pointcloud_publisher.egg-info/top_level.txt
+[6.992s] reading manifest file 'pointcloud_publisher.egg-info/SOURCES.txt'
+[7.009s] writing manifest file 'pointcloud_publisher.egg-info/SOURCES.txt'
+[7.015s] running build_ext
+[7.016s] Creating /root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages/pointcloud-publisher.egg-link (link to .)
+[7.020s] Installing pointcloud_publisher script to /root/ros2_ws/install/pointcloud_publisher/lib/pointcloud_publisher
+[7.028s] 
+[7.028s] Installed /root/ros2_ws/build/pointcloud_publisher
+[7.028s] running symlink_data
+[7.029s] symbolically linking /root/ros2_ws/build/pointcloud_publisher/resource/pointcloud_publisher -> /root/ros2_ws/install/pointcloud_publisher/share/ament_index/resource_index/packages
+[7.029s] symbolically linking /root/ros2_ws/build/pointcloud_publisher/package.xml -> /root/ros2_ws/install/pointcloud_publisher/share/pointcloud_publisher
+[7.220s] Invoked command in '/root/ros2_ws/build/pointcloud_publisher' returned '0': PYTHONPATH=/root/ros2_ws/build/pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/pointcloud_publisher/build --no-deps symlink_data --force

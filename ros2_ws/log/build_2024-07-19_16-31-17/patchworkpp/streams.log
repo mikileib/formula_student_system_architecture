@@ -1,0 +1,42 @@
+[0.623s] Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/patchworkpp -- -j8 -l8
+[0.778s] [35m[1mConsolidate compiler generated dependencies of target demo[0m
+[0.787s] [35m[1mConsolidate compiler generated dependencies of target patchworkpp[0m
+[0.950s] [ 50%] Built target demo
+[0.952s] [100%] Built target patchworkpp
+[1.258s] Invoked command in '/root/ros2_ws/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/patchworkpp -- -j8 -l8
+[1.377s] Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/patchworkpp
+[1.393s] -- Install configuration: "Release"
+[1.394s] -- Installing: /root/ros2_ws/install/patchworkpp/lib/libpatchworkpp.so
+[1.405s] -- Set runtime path of "/root/ros2_ws/install/patchworkpp/lib/libpatchworkpp.so" to ""
+[1.405s] -- Installing: /root/ros2_ws/install/patchworkpp/lib/patchworkpp/demo
+[1.415s] -- Set runtime path of "/root/ros2_ws/install/patchworkpp/lib/patchworkpp/demo" to ""
+[1.416s] -- Installing: /root/ros2_ws/install/patchworkpp/include/patchworkpp
+[1.416s] -- Installing: /root/ros2_ws/install/patchworkpp/include/patchworkpp/patchworkpp.hpp
+[1.425s] -- Installing: /root/ros2_ws/install/patchworkpp/include/patchworkpp/utils.hpp
+[1.430s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch
+[1.432s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch/demo.launch.py
+[1.432s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/launch/rviz1.launch.py
+[1.434s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/config
+[1.435s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/config/params_ros2.yaml
+[1.440s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz
+[1.443s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/patchworkpp_viz.rviz
+[1.443s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/demo.rviz
+[1.444s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/rviz/rviz1.rviz
+[1.444s] -- Installing: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/package_run_dependencies/patchworkpp
+[1.446s] -- Installing: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/parent_prefix_path/patchworkpp
+[1.448s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.sh
+[1.452s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/ament_prefix_path.dsv
+[1.452s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/path.sh
+[1.452s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/environment/path.dsv
+[1.453s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.bash
+[1.453s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.sh
+[1.453s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.zsh
+[1.458s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/local_setup.dsv
+[1.459s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/package.dsv
+[1.460s] -- Installing: /root/ros2_ws/install/patchworkpp/share/ament_index/resource_index/packages/patchworkpp
+[1.461s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.461s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.461s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig.cmake
+[1.461s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/cmake/patchworkppConfig-version.cmake
+[1.461s] -- Installing: /root/ros2_ws/install/patchworkpp/share/patchworkpp/package.xml
+[1.490s] Invoked command in '/root/ros2_ws/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/patchworkpp

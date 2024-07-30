@@ -1,0 +1,24 @@
+[2.575s] Invoking command in '/root/ros2_ws/build/detection': PYTHONPATH=/root/ros2_ws/build/detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/detection/build --no-deps symlink_data --force
+[4.410s] running develop
+[4.410s] running egg_info
+[4.410s] writing detection.egg-info/PKG-INFO
+[4.411s] writing dependency_links to detection.egg-info/dependency_links.txt
+[4.411s] writing entry points to detection.egg-info/entry_points.txt
+[4.411s] writing requirements to detection.egg-info/requires.txt
+[4.411s] writing top-level names to detection.egg-info/top_level.txt
+[4.411s] reading manifest file 'detection.egg-info/SOURCES.txt'
+[4.411s] writing manifest file 'detection.egg-info/SOURCES.txt'
+[4.411s] running build_ext
+[4.412s] Creating /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection.egg-link (link to .)
+[4.412s] Installing cone_detection_camera script to /root/ros2_ws/install/detection/lib/detection
+[4.412s] 
+[4.412s] Installed /root/ros2_ws/build/detection
+[4.412s] running symlink_data
+[4.412s] symbolically linking /root/ros2_ws/build/detection/resource/detection -> /root/ros2_ws/install/detection/share/ament_index/resource_index/packages
+[4.412s] symbolically linking /root/ros2_ws/build/detection/package.xml -> /root/ros2_ws/install/detection/share/detection
+[4.413s] creating /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection
+[4.413s] creating /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection/resources
+[4.415s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.415s]   warnings.warn(
+[4.415s] error: [Errno 2] No such file or directory: '/root/ros2_ws/install/detection/lib/python3.10/site-packages/detection/resources/class.names'
+[4.425s] Invoked command in '/root/ros2_ws/build/detection' returned '1': PYTHONPATH=/root/ros2_ws/build/detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/detection/build --no-deps symlink_data --force

@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target cone_detection_camera[0m
+[100%] Built target cone_detection_camera
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/projection/lib/projection/cone_detection_camera
+-- Set runtime path of "/root/ros2_ws/install/projection/lib/projection/cone_detection_camera" to ""
+-- Installing: /root/ros2_ws/install/projection/share/ament_index/resource_index/package_run_dependencies/projection
+-- Installing: /root/ros2_ws/install/projection/share/ament_index/resource_index/parent_prefix_path/projection
+-- Installing: /root/ros2_ws/install/projection/share/projection/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/projection/share/projection/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/projection/share/projection/environment/path.sh
+-- Installing: /root/ros2_ws/install/projection/share/projection/environment/path.dsv
+-- Installing: /root/ros2_ws/install/projection/share/projection/local_setup.bash
+-- Installing: /root/ros2_ws/install/projection/share/projection/local_setup.sh
+-- Installing: /root/ros2_ws/install/projection/share/projection/local_setup.zsh
+-- Installing: /root/ros2_ws/install/projection/share/projection/local_setup.dsv
+-- Installing: /root/ros2_ws/install/projection/share/projection/package.dsv
+-- Installing: /root/ros2_ws/install/projection/share/ament_index/resource_index/packages/projection
+-- Installing: /root/ros2_ws/install/projection/share/projection/cmake/projectionConfig.cmake
+-- Installing: /root/ros2_ws/install/projection/share/projection/cmake/projectionConfig-version.cmake
+-- Installing: /root/ros2_ws/install/projection/share/projection/package.xml

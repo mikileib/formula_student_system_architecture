@@ -1,0 +1,4 @@
+source;share/prcp_object_fusion/local_setup.bash
+source;share/prcp_object_fusion/local_setup.dsv
+source;share/prcp_object_fusion/local_setup.sh
+source;share/prcp_object_fusion/local_setup.zsh

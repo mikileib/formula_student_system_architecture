@@ -1,0 +1,55 @@
+[0.707s] Invoking command in '/root/ros2_ws/build/lidar_cluster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_cluster -- -j8 -l8
+[0.975s] [35m[1mConsolidate compiler generated dependencies of target dbscan_grid[0m
+[0.975s] [35m[1mConsolidate compiler generated dependencies of target dblane_spatial[0m
+[0.989s] [35m[1mConsolidate compiler generated dependencies of target dblane_f1s[0m
+[0.989s] [35m[1mConsolidate compiler generated dependencies of target dbscan_spatial[0m
+[1.002s] [35m[1mConsolidate compiler generated dependencies of target euclidean_spatial[0m
+[1.059s] [  6%] [32m[1mLinking CXX executable dbscan_grid[0m
+[1.059s] [ 13%] [32m[1mLinking CXX executable dblane_spatial[0m
+[1.153s] [ 20%] [32m[1mLinking CXX executable dblane_f1s[0m
+[1.183s] [ 26%] [32m[1mLinking CXX executable euclidean_spatial[0m
+[1.184s] [ 33%] [32m[1mLinking CXX executable dbscan_spatial[0m
+[5.996s] [ 46%] Built target dbscan_spatial
+[6.099s] [35m[1mConsolidate compiler generated dependencies of target euclidean_grid[0m
+[6.270s] [ 53%] [32m[1mLinking CXX executable euclidean_grid[0m
+[6.544s] [ 60%] Built target dblane_f1s
+[9.989s] [ 66%] Built target euclidean_spatial
+[12.886s] [ 86%] Built target euclidean_grid
+[44.617s] [ 93%] Built target dblane_spatial
+[46.337s] [100%] Built target dbscan_grid
+[46.355s] Invoked command in '/root/ros2_ws/build/lidar_cluster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_cluster -- -j8 -l8
+[46.478s] Invoking command in '/root/ros2_ws/build/lidar_cluster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_cluster
+[46.491s] -- Install configuration: ""
+[46.493s] -- Execute custom install script
+[46.495s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dblane_f1s.launch.py
+[46.509s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dblane_spatial.launch.py
+[46.523s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dbscan_spatial.launch.py
+[46.535s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/euclidean_grid.launch.py
+[46.551s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/euclidean_spatial.launch.py
+[46.565s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/rviz01.launch.py
+[46.578s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/rviz02.launch.py
+[46.594s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/.gitkeep
+[46.607s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/rviz01.rviz
+[46.622s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/rviz02.rviz
+[46.638s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_spatial
+[46.652s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_grid
+[46.665s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_spatial
+[46.678s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_spatial
+[46.693s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_f1s
+[46.707s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_grid
+[46.724s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/package_run_dependencies/lidar_cluster
+[46.740s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/parent_prefix_path/lidar_cluster
+[46.754s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/ament_prefix_path.sh
+[46.766s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/ament_prefix_path.dsv
+[46.779s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/path.sh
+[46.793s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/path.dsv
+[46.808s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.bash
+[46.821s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.sh
+[46.834s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.zsh
+[46.847s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.dsv
+[46.860s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/package.dsv
+[46.873s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/packages/lidar_cluster
+[46.887s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig.cmake
+[46.900s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig-version.cmake
+[46.915s] -- Symlinking: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/package.xml
+[46.931s] Invoked command in '/root/ros2_ws/build/lidar_cluster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_cluster

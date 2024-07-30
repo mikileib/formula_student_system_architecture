@@ -1,0 +1,17 @@
+In file included from [01m[K/root/ros2_ws/src/dataset_publisher_ros2/src/publisher/src/seeds_images.cc:6[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/root/ros2_ws/src/dataset_publisher_ros2/src/publisher/src/openvslam_video.cc:4[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/root/ros2_ws/src/dataset_publisher_ros2/src/publisher/src/kitti_images.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | image_transport.hpp' instead"[01;36m[K)[m[K
+      |                              [01;36m[K^[m[K
+
+In file included from [01m[K/root/ros2_ws/src/dataset_publisher_ros2/src/publisher/src/euroc_images.cc:3[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K

@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/patchwork-plusplus-ros -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/patchworkpp
+Invoked command in '/root/ros2_ws/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/patchwork-plusplus-ros -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/patchworkpp
+Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/patchworkpp -- -j8 -l8
+Invoked command in '/root/ros2_ws/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/patchworkpp -- -j8 -l8
+Invoking command in '/root/ros2_ws/build/patchworkpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/patchworkpp
+Invoked command in '/root/ros2_ws/build/patchworkpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/patchworkpp

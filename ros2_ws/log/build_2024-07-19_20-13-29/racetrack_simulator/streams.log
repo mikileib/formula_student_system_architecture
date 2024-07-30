@@ -1,0 +1,27 @@
+[0.111s] Invoking command in '/root/ros2_ws/build/racetrack_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/racetrack_simulator -- -j8 -l8
+[0.334s] [ 50%] Built target lidar_cone_sim
+[0.349s] [100%] Built target accuracy_meter
+[1.151s] Invoked command in '/root/ros2_ws/build/racetrack_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/racetrack_simulator -- -j8 -l8
+[1.304s] Invoking command in '/root/ros2_ws/build/racetrack_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/racetrack_simulator
+[1.310s] -- Install configuration: ""
+[1.311s] -- Execute custom install script
+[1.312s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/launch/accuracy_meter.launch.py
+[1.313s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/launch/lidar_cone_sim.launch.py
+[1.314s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/lib/racetrack_simulator/lidar_cone_sim
+[1.314s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/lib/racetrack_simulator/accuracy_meter
+[1.314s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/ament_index/resource_index/package_run_dependencies/racetrack_simulator
+[1.319s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/ament_index/resource_index/parent_prefix_path/racetrack_simulator
+[1.320s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/ament_prefix_path.sh
+[1.324s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/ament_prefix_path.dsv
+[1.324s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/path.sh
+[1.325s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/environment/path.dsv
+[1.326s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.bash
+[1.327s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.sh
+[1.328s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.zsh
+[1.328s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/local_setup.dsv
+[1.329s] -- Symlinking: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/package.dsv
+[1.355s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/ament_index/resource_index/packages/racetrack_simulator
+[1.356s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/cmake/racetrack_simulatorConfig.cmake
+[1.357s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/cmake/racetrack_simulatorConfig-version.cmake
+[1.358s] -- Up-to-date symlink: /root/ros2_ws/install/racetrack_simulator/share/racetrack_simulator/package.xml
+[1.363s] Invoked command in '/root/ros2_ws/build/racetrack_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/yolov5_ros:/root/ros2_ws/install/pointcloud_publisher:/root/ros2_ws/install/detection:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/racetrack_simulator

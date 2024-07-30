@@ -1,0 +1,54 @@
+[35m[1mConsolidate compiler generated dependencies of target dbscan_spatial[0m
+[35m[1mConsolidate compiler generated dependencies of target dbscan_grid[0m
+[35m[1mConsolidate compiler generated dependencies of target euclidean_spatial[0m
+[35m[1mConsolidate compiler generated dependencies of target dblane_f1s[0m
+[35m[1mConsolidate compiler generated dependencies of target euclidean_grid[0m
+[35m[1mConsolidate compiler generated dependencies of target dblane_spatial[0m
+[ 13%] Built target dbscan_grid
+[ 20%] [32mBuilding CXX object CMakeFiles/dbscan_spatial.dir/src/dbscan_spatial.cpp.o[0m
+[ 33%] Built target dblane_spatial
+[ 46%] Built target dblane_f1s
+[ 60%] Built target euclidean_spatial
+[ 86%] Built target euclidean_grid
+[ 93%] [32m[1mLinking CXX executable dbscan_spatial[0m
+[100%] Built target dbscan_spatial
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/rviz01.launch.py
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dbscan_spatial.launch.py
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/euclidean_spatial.launch.py
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dblane_f1s.launch.py
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/dblane_spatial.launch.py
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/rviz02.launch.py
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/launch/euclidean_grid.launch.py
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/rviz01.rviz
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/.gitkeep
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/config/rviz02.rviz
+-- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_spatial
+-- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_spatial" to ""
+-- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_grid
+-- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dbscan_grid" to ""
+-- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_spatial
+-- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_spatial" to ""
+-- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_spatial
+-- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_spatial" to ""
+-- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_f1s
+-- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/dblane_f1s" to ""
+-- Installing: /root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_grid
+-- Set runtime path of "/root/ros2_ws/install/lidar_cluster/lib/lidar_cluster/euclidean_grid" to ""
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/package_run_dependencies/lidar_cluster
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/parent_prefix_path/lidar_cluster
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/path.sh
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/environment/path.dsv
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.bash
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.sh
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.zsh
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/local_setup.dsv
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/package.dsv
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/ament_index/resource_index/packages/lidar_cluster
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig.cmake
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig-version.cmake
+-- Installing: /root/ros2_ws/install/lidar_cluster/share/lidar_cluster/package.xml

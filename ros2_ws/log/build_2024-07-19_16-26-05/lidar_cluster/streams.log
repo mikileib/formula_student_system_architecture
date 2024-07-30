@@ -1,0 +1,124 @@
+[0.577s] Invoking command in '/root/ros2_ws/build/lidar_cluster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/lidar_cluster_ros2 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/lidar_cluster
+[0.724s] -- The C compiler identification is GNU 11.4.0
+[0.910s] -- The CXX compiler identification is GNU 11.4.0
+[0.928s] -- Detecting C compiler ABI info
+[1.118s] -- Detecting C compiler ABI info - done
+[1.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.138s] -- Detecting C compile features
+[1.145s] -- Detecting C compile features - done
+[1.149s] -- Detecting CXX compiler ABI info
+[1.373s] -- Detecting CXX compiler ABI info - done
+[1.400s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.400s] -- Detecting CXX compile features
+[1.401s] -- Detecting CXX compile features - done
+[1.404s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.878s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.191s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.307s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.324s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.359s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.691s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.702s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.996s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.070s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.217s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.244s] -- Looking for pthread.h
+[3.413s] -- Looking for pthread.h - found
+[3.414s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.586s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.589s] -- Found Threads: TRUE  
+[4.072s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.475s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.857s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[4.891s] -- Found tf2_msgs: 0.25.7 (/opt/ros/humble/share/tf2_msgs/cmake)
+[5.330s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[5.782s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.823s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.826s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.827s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.851s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[6.602s] -- Checking for module 'eigen3'
+[6.639s] --   Found eigen3, version 3.4.0
+[6.740s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.740s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.846s] -- Checking for module 'flann'
+[6.889s] --   Found flann, version 1.9.1
+[7.014s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.014s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[9.611s] -- Checking for module 'libusb-1.0'
+[9.654s] --   Found libusb-1.0, version 1.0.25
+[9.765s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.770s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.942s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.918s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.959s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.010s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.080s] -- Found Qhull version 8.0.2
+[12.739s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.209s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[13.211s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[13.213s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[13.214s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[13.216s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[13.219s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[13.221s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[13.226s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[13.226s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[13.232s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[13.236s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[13.239s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[13.244s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[13.254s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[13.256s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[13.260s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[13.267s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[13.268s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[13.271s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[13.278s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[13.282s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[13.284s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[13.286s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[13.291s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[13.296s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[14.880s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.320s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.332s] -- Configured cppcheck include dirs: /root/ros2_ws/src/lidar_cluster_ros2/include
+[15.332s] -- Configured cppcheck exclude dirs and/or files: 
+[15.341s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.347s] -- Added test 'lint_cmake' to check CMake code style
+[15.351s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.366s] -- Added test 'uncrustify' to check C / C++ code style
+[15.370s] -- Configured uncrustify additional arguments: 
+[15.370s] -- Added test 'xmllint' to check XML markup files
+[15.377s] -- Configuring done
+[15.912s] -- Generating done
+[15.925s] -- Build files have been written to: /root/ros2_ws/build/lidar_cluster
+[15.984s] Invoked command in '/root/ros2_ws/build/lidar_cluster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/lidar_cluster_ros2 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/lidar_cluster
+[15.992s] Invoking command in '/root/ros2_ws/build/lidar_cluster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_cluster -- -j8 -l8
+[31.786s] [  6%] [32mBuilding CXX object CMakeFiles/dbscan_grid.dir/src/dbscan_grid.cpp.o[0m
+[31.788s] [ 13%] [32mBuilding CXX object CMakeFiles/dbscan_spatial.dir/src/benchmark.cpp.o[0m
+[31.789s] [ 20%] [32mBuilding CXX object CMakeFiles/euclidean_grid.dir/src/benchmark.cpp.o[0m
+[31.789s] [ 40%] [32mBuilding CXX object CMakeFiles/dblane_spatial.dir/src/dblane_spatial.cpp.o[0m
+[31.789s] [ 40%] [32mBuilding CXX object CMakeFiles/euclidean_spatial.dir/src/euclidean_spatial.cpp.o[0m
+[31.789s] [ 40%] [32mBuilding CXX object CMakeFiles/dbscan_spatial.dir/src/dbscan_spatial.cpp.o[0m
+[31.789s] [ 46%] [32mBuilding CXX object CMakeFiles/dblane_f1s.dir/src/dblane_f1s.cpp.o[0m
+[31.789s] [ 53%] [32mBuilding CXX object CMakeFiles/euclidean_grid.dir/src/euclidean_grid.cpp.o[0m
+[31.790s] [ 60%] [32m[1mLinking CXX executable dbscan_grid[0m
+[31.801s] [ 66%] [32m[1mLinking CXX executable dblane_spatial[0m
+[31.802s] [ 73%] [32mBuilding CXX object CMakeFiles/euclidean_grid.dir/src/cluster_outline.cpp.o[0m
+[140.538s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[140.544s] compilation terminated.
+[140.589s] gmake[2]: *** [CMakeFiles/dbscan_spatial.dir/build.make:76: CMakeFiles/dbscan_spatial.dir/src/dbscan_spatial.cpp.o] Error 1
+[140.676s] gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/dbscan_spatial.dir/all] Error 2
+[140.682s] gmake[1]: *** Waiting for unfinished jobs....
+[143.771s] [ 73%] Built target dblane_spatial
+[146.019s] [ 73%] Built target dbscan_grid
+[187.090s] [ 80%] [32m[1mLinking CXX executable euclidean_spatial[0m
+[187.822s] [ 86%] [32m[1mLinking CXX executable dblane_f1s[0m
+[190.704s] [ 86%] Built target dblane_f1s
+[191.436s] [ 86%] Built target euclidean_spatial
+[193.104s] [ 93%] [32m[1mLinking CXX executable euclidean_grid[0m
+[197.901s] [ 93%] Built target euclidean_grid
+[197.936s] gmake: *** [Makefile:146: all] Error 2

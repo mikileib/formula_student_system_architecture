@@ -1,0 +1,21 @@
+[2.725s] Invoking command in '/root/ros2_ws/src/formula_student_packages/cone_detection_camera/detection': PYTHONPATH=/root/ros2_ws/build/detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/detection build --build-base /root/ros2_ws/build/detection/build install --record /root/ros2_ws/build/detection/install.log --single-version-externally-managed install_data
+[3.175s] running egg_info
+[3.176s] writing ../../../../build/detection/detection.egg-info/PKG-INFO
+[3.179s] writing dependency_links to ../../../../build/detection/detection.egg-info/dependency_links.txt
+[3.179s] writing entry points to ../../../../build/detection/detection.egg-info/entry_points.txt
+[3.180s] writing requirements to ../../../../build/detection/detection.egg-info/requires.txt
+[3.180s] writing top-level names to ../../../../build/detection/detection.egg-info/top_level.txt
+[3.183s] reading manifest file '../../../../build/detection/detection.egg-info/SOURCES.txt'
+[3.185s] writing manifest file '../../../../build/detection/detection.egg-info/SOURCES.txt'
+[3.186s] running build
+[3.186s] running build_py
+[3.188s] running install
+[3.189s] running install_lib
+[3.193s] running install_data
+[3.195s] running install_egg_info
+[3.199s] removing '/root/ros2_ws/install/detection/lib/python3.10/site-packages/detection-0.0.0-py3.10.egg-info' (and everything under it)
+[3.201s] Copying ../../../../build/detection/detection.egg-info to /root/ros2_ws/install/detection/lib/python3.10/site-packages/detection-0.0.0-py3.10.egg-info
+[3.203s] running install_scripts
+[3.247s] Installing cone_detection_camera script to /root/ros2_ws/install/detection/lib/detection
+[3.249s] writing list of installed files to '/root/ros2_ws/build/detection/install.log'
+[3.302s] Invoked command in '/root/ros2_ws/src/formula_student_packages/cone_detection_camera/detection' returned '0': PYTHONPATH=/root/ros2_ws/build/detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/detection build --build-base /root/ros2_ws/build/detection/build install --record /root/ros2_ws/build/detection/install.log --single-version-externally-managed install_data

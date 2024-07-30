@@ -1,0 +1,4 @@
+source;share/racetrack_simulator/local_setup.bash
+source;share/racetrack_simulator/local_setup.dsv
+source;share/racetrack_simulator/local_setup.sh
+source;share/racetrack_simulator/local_setup.zsh

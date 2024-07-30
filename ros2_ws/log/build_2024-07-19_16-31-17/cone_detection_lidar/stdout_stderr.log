@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target grid_trajectory[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/detection_simple.dir/src/detection_simple.cpp.o[0m
+[ 75%] Built target grid_trajectory
+[100%] [32m[1mLinking CXX executable detection_simple[0m
+[100%] Built target detection_simple
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/grid_detection.launch.py
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/rviz01.launch.py
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/launch/detection_simple.launch.py
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/config
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/config/rviz01.rviz
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/detection_simple
+-- Set runtime path of "/root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/detection_simple" to ""
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/grid_trajectory
+-- Set runtime path of "/root/ros2_ws/install/cone_detection_lidar/lib/cone_detection_lidar/grid_trajectory" to ""
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/package_run_dependencies/cone_detection_lidar
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/parent_prefix_path/cone_detection_lidar
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/path.sh
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/environment/path.dsv
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.bash
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.sh
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.zsh
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/local_setup.dsv
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/package.dsv
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/ament_index/resource_index/packages/cone_detection_lidar
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/cmake/cone_detection_lidarConfig.cmake
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/cmake/cone_detection_lidarConfig-version.cmake
+-- Installing: /root/ros2_ws/install/cone_detection_lidar/share/cone_detection_lidar/package.xml

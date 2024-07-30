@@ -1,0 +1,15 @@
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/lidar_cluster_uninstall.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/dbscan_spatial.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/dbscan_grid.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/dblane_spatial.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/euclidean_spatial.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/dblane_f1s.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/euclidean_grid.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/test.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/install.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/install/local.dir
+/root/ros2_ws/build/lidar_cluster/CMakeFiles/install/strip.dir

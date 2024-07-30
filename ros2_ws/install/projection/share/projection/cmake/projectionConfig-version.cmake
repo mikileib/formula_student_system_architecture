@@ -1,0 +1,1 @@
+/root/ros2_ws/build/projection/ament_cmake_core/projectionConfig-version.cmake

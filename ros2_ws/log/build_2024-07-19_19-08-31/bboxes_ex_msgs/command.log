@@ -1,0 +1,1 @@
+Invoking command in '/root/ros2_ws/build/bboxes_ex_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/bbox_ex_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/bboxes_ex_msgs

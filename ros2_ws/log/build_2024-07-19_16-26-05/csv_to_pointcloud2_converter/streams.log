@@ -1,0 +1,72 @@
+[0.091s] Invoking command in '/root/ros2_ws/build/csv_to_pointcloud2_converter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/csv_to_pointcloud2_converter -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/csv_to_pointcloud2_converter
+[0.628s] -- The C compiler identification is GNU 11.4.0
+[0.628s] -- The CXX compiler identification is GNU 11.4.0
+[0.628s] -- Detecting C compiler ABI info
+[0.628s] -- Detecting C compiler ABI info - done
+[0.628s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.628s] -- Detecting C compile features
+[0.629s] -- Detecting C compile features - done
+[0.629s] -- Detecting CXX compiler ABI info
+[0.763s] -- Detecting CXX compiler ABI info - done
+[0.788s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.791s] -- Detecting CXX compile features
+[0.792s] -- Detecting CXX compile features - done
+[0.802s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.247s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.501s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.653s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.667s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.710s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.755s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.845s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.098s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.109s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.391s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.468s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.610s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.635s] -- Looking for pthread.h
+[2.821s] -- Looking for pthread.h - found
+[2.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.028s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.031s] -- Found Threads: TRUE  
+[3.466s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.788s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.078s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.084s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.085s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/ros2_ws/src/csv_to_pointcloud2_converter/include>
+[4.085s] -- Configured cppcheck exclude dirs and/or files: 
+[4.087s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.088s] -- Configured cpplint exclude dirs and/or files: 
+[4.089s] -- Added test 'lint_cmake' to check CMake code style
+[4.093s] -- Added test 'uncrustify' to check C / C++ code style
+[4.093s] -- Configured uncrustify additional arguments: 
+[4.094s] -- Added test 'xmllint' to check XML markup files
+[4.099s] -- Configuring done
+[4.122s] -- Generating done
+[4.127s] -- Build files have been written to: /root/ros2_ws/build/csv_to_pointcloud2_converter
+[4.160s] Invoked command in '/root/ros2_ws/build/csv_to_pointcloud2_converter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/csv_to_pointcloud2_converter -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/csv_to_pointcloud2_converter
+[4.166s] Invoking command in '/root/ros2_ws/build/csv_to_pointcloud2_converter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/csv_to_pointcloud2_converter -- -j8 -l8
+[4.306s] [ 50%] [32mBuilding CXX object CMakeFiles/csv_to_pointcloud2_node.dir/src/csv_to_pointcloud2_node.cpp.o[0m
+[30.328s] [100%] [32m[1mLinking CXX executable csv_to_pointcloud2_node[0m
+[31.736s] [100%] Built target csv_to_pointcloud2_node
+[31.842s] Invoked command in '/root/ros2_ws/build/csv_to_pointcloud2_converter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/csv_to_pointcloud2_converter -- -j8 -l8
+[32.099s] Invoking command in '/root/ros2_ws/build/csv_to_pointcloud2_converter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/csv_to_pointcloud2_converter
+[106.197s] -- Install configuration: ""
+[106.225s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/lib/csv_to_pointcloud2_converter/csv_to_pointcloud2_node
+[106.225s] -- Set runtime path of "/root/ros2_ws/install/csv_to_pointcloud2_converter/lib/csv_to_pointcloud2_converter/csv_to_pointcloud2_node" to ""
+[106.225s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/ament_index/resource_index/package_run_dependencies/csv_to_pointcloud2_converter
+[106.226s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/ament_index/resource_index/parent_prefix_path/csv_to_pointcloud2_converter
+[106.227s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/environment/ament_prefix_path.sh
+[106.227s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/environment/ament_prefix_path.dsv
+[106.227s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/environment/path.sh
+[106.228s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/environment/path.dsv
+[106.236s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/local_setup.bash
+[106.238s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/local_setup.sh
+[106.239s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/local_setup.zsh
+[106.239s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/local_setup.dsv
+[106.239s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/package.dsv
+[106.247s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/ament_index/resource_index/packages/csv_to_pointcloud2_converter
+[106.249s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/cmake/csv_to_pointcloud2_converterConfig.cmake
+[106.249s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/cmake/csv_to_pointcloud2_converterConfig-version.cmake
+[106.250s] -- Installing: /root/ros2_ws/install/csv_to_pointcloud2_converter/share/csv_to_pointcloud2_converter/package.xml
+[107.134s] Invoked command in '/root/ros2_ws/build/csv_to_pointcloud2_converter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/eufs_tracks:/root/ros2_ws/install/detection:/root/ros2_ws/install/eufs_rqt:/root/ros2_ws/install/eufs_launcher:/root/ros2_ws/src/install/eufs_rqt:/root/ros2_ws/src/install/pointcloud_publisher:/root/ros2_ws/src/install/eufs_tracks:/root/ros2_ws/src/install/eufs_racecar:/root/ros2_ws/src/install/detection:/root/ros2_ws/install/eufs_racecar:/root/ros2_ws/install/pointcloud_publisher:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/csv_to_pointcloud2_converter
